@@ -1,4 +1,4 @@
-]
+
 
 local player = game.Players.LocalPlayer
 
@@ -527,4 +527,5 @@ Sky("119444522513465")
 --Please leave this credit
 
 --Script made by Yaazkidd (I copy inspiration from blue2spooky wooo)
+
 
