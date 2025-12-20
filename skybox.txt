@@ -1,6 +1,4 @@
---[[
-
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!]]
+]
 
 local player = game.Players.LocalPlayer
 
@@ -529,3 +527,4 @@ Sky("119444522513465")
 --Please leave this credit
 
 --Script made by Yaazkidd (I copy inspiration from blue2spooky wooo)
+
