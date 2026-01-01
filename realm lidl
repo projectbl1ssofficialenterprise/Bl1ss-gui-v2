@@ -1,0 +1,124 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+RequestCommand:InvokeServer(";btools me ;fogcolor black")
+wait(0.4)
+RequestCommand:InvokeServer(";time ;hideguis others")
+wait(0.1)
+
+local player = game.Players.LocalPlayer
+local backpack = player.Backpack
+
+local function getf3x()
+	for _, v in ipairs(backpack:GetChildren()) do
+		if v:FindFirstChild("SyncAPI") then return v end
+	end
+	for _, v in ipairs(player.Character:GetChildren()) do
+		if v:FindFirstChild("SyncAPI") then return v end
+	end
+	return nil
+end
+
+local f3x = getf3x()
+if not f3x then warn("No F3X tools found"); return end
+
+local serverendpoint = f3x.SyncAPI.ServerEndpoint
+
+local function delete(part)
+	serverendpoint:InvokeServer("Remove", {[1] = part})
+end
+
+local function deleteall()
+	for _, v in pairs(workspace:GetChildren()) do
+		if v.Name ~= "Sound" then
+			task.spawn(function() delete(v) end)
+		end
+	end
+end
+
+deleteall()
+
+local function lockall()
+	for _, v in pairs(workspace:GetDescendants()) do
+		if v:IsA("BasePart") then
+			task.spawn(function() serverendpoint:InvokeServer("SetLocked", {[1] = v}, true) end)
+		end
+	end
+end
+
+local function sky()
+	local pos = CFrame.new(0, 5, 0)
+	local skyPart = serverendpoint:InvokeServer("CreatePart", "Normal", pos, workspace)
+	serverendpoint:InvokeServer("CreateMeshes", {[1] = {Part = skyPart}})
+	serverendpoint:InvokeServer("SyncMesh", {[1] = {Part = skyPart, MeshId = "rbxassetid://111891702759441"}})
+	serverendpoint:InvokeServer("SyncMesh", {[1] = {Part = skyPart, TextureId = "rbxassetid://93690633620810"}})
+	serverendpoint:InvokeServer("SyncMesh", {[1] = {Part = skyPart, VertexColor = Vector3.new(3,3,3)}})
+	serverendpoint:InvokeServer("SyncMesh", {[1] = {Part = skyPart, Scale = Vector3.new(60001,60001,60001)}})
+	serverendpoint:InvokeServer("SetName", {[1] = skyPart}, "the skybox lolz")
+	serverendpoint:InvokeServer("SyncCollision", {[1] = {Part = skyPart, CanCollide = false}})
+	serverendpoint:InvokeServer("SetLocked", {[1] = skyPart}, true)
+end
+
+local function spawnrealm()
+	local model_id = "114548070098750"  -- Your cafe model
+	local ok, imported = pcall(function()
+		return game:GetObjects("rbxassetid://" .. model_id)[1]
+	end)
+	if not ok or not imported then warn("Failed to load model"); return end
+
+	imported.Parent = game.Lighting
+
+	for _, v in pairs(imported:GetDescendants()) do
+		pcall(function() v.Anchored = true end)
+	end
+
+	coroutine.wrap(function() wait(10); imported.Parent = nil end)()
+
+	local function buildpart(part)
+		local data = {
+			Type = part:IsA("WedgePart") and "Wedge" or part:IsA("Seat") and "Seat" or part:IsA("VehicleSeat") and "VehicleSeat" or
+			       part:IsA("TrussPart") and "Truss" or part:IsA("SpawnLocation") and "Spawn" or
+			       (part.Shape == Enum.PartType.Block and "Normal" or part.Shape == Enum.PartType.Ball and "Ball" or "Cylinder"),
+			CFrame = part.CFrame,
+			Size = part.Size,
+			Transparency = part.Transparency,
+			Color = part.Color,
+			Material = part.Material,
+			Collision = part.CanCollide,
+			Ref = part,
+		}
+
+		local created = serverendpoint:InvokeServer("CreatePart", data.Type, data.CFrame, workspace)
+		if not created then return end
+
+		task.spawn(function()
+			if data.Size ~= Vector3.new(4,1,2) then serverendpoint:InvokeServer("SyncResize", {{Part=created, CFrame=created.CFrame, Size=data.Size}}) end
+			if data.Transparency ~= 0 then serverendpoint:InvokeServer("SyncMaterial", {{Part=created, Transparency=data.Transparency}}) end
+			if data.Color ~= BrickColor.new("Medium stone grey").Color then serverendpoint:InvokeServer("SyncColor", {{Part=created, Color=data.Color, UnionColoring=true}}) end
+			if data.Material ~= Enum.Material.Plastic then serverendpoint:InvokeServer("SyncMaterial", {{Part=created, Material=data.Material}}) end
+			if not data.Collision then serverendpoint:InvokeServer("SyncCollision", {{Part=created, CanCollide=false}}) end
+
+			-- Meshes, textures, decals, lights (same as before)
+			local mesh = part:FindFirstChildOfClass("SpecialMesh")
+			if mesh then
+				serverendpoint:InvokeServer("CreateMeshes", {{Part=created}})
+				serverendpoint:InvokeServer("SyncMesh", {{Part=created, MeshId=mesh.MeshId, TextureId=mesh.TextureId, Scale=mesh.Scale}})
+			end
+			-- Add decal/texture/light sync if needed...
+		end)
+	end
+
+	for _, part in pairs(imported:GetDescendants()) do
+		if part:IsA("BasePart") then
+			task.spawn(function() buildpart(part) end)
+		end
+	end
+end
+
+spawnrealm()
+sky()
+lockall()
+
+wait(2)
+RequestCommand:InvokeServer(";respawn all")
+wait(0.8)
+RequestCommand:InvokeServer(";music 1846575559 ;volume inf")
